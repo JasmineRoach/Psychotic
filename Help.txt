@@ -1,0 +1,59 @@
+Start Game 
+Let’s player start new game
+END
+End Game
+Let’s player end game
+END
+Map
+Let’s player view map
+END
+Inventory
+Let’s player see items
+North
+Direction to go up
+END
+South
+Direction to go down
+END
+East
+Direction to go right
+END
+West
+Direction to go left
+END
+Explore
+Description of current room
+END
+Solve
+Let’s player solve a puzzle
+END
+Hint
+View a hint to solve a puzzle
+END
+Equip
+Equip plus item name to equip item
+END
+Flee
+Escape monster or room
+END
+View
+Description of monster or puzzle
+END
+Attack
+To attack monster
+END
+Pick up
+Pick up plus item name to add item to inventory
+END
+Drop
+Drop plus item name to drop item from inventory
+END
+Unequip
+Unequip plus item name to unequip items
+END
+Back
+Exits out of map, inventory, or help
+END
+Skip
+Skip a puzzle
+END
