@@ -15,6 +15,11 @@ public class Help {
         return description;
     }
 
+    public void getHelp(){
+        System.out.println(name + " = " + description);
+    }
+
+
 
 
 }

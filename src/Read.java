@@ -53,7 +53,6 @@ public class Read {
                 }
                 help.put(name, new Help(name, description));
                 line = reader.readLine();
-                //System.out.println(help.get(name));
 
             }
             return help;
