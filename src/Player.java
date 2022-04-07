@@ -2,8 +2,8 @@ import java.util.*;
 public class Player {
     //private static String help;
 
-    //HashMap<String, Help> help1 = Read.help();
-    private static HashMap<String, Help> help1= new HashMap<String, Help>();
+    HashMap<String, Help> help1 = Read.help();
+    //private static HashMap<String, Help> help1= new HashMap<String, Help>();
 
     public Player(){
 
@@ -29,8 +29,13 @@ public class Player {
 
     }
 
-    public void getHelp(String help){
-     System.out.println(help1.get(help).getName() + "=" + help1.get(help).getDescription());
+    public void getHelp(){
+       for(String name : help1.keySet()){
+           String key = name;
+           String value = help1.get(name).toString();
+           System.out.println(key + " " + value);
+       }
+
 
      }
 
