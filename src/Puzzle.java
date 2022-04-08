@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 
 /**
  * Class:Puzzle
@@ -7,67 +6,37 @@ import java.util.ArrayList;
  * methods of the Puzzles in the game
  */
 public class Puzzle {
-    private String puzzleID;
-    private String puzzleType;
-    private String puzzleDescription;
-    private String puzzleSolution;
-    private static ArrayList<Puzzle> puzzleList = new ArrayList<>();
+    private String id;
+    private String name;
+    private String description;
+    private String solution;
 
-    public Puzzle(String puzzleID, String puzzleType, String puzzleDescription, String puzzleSolution)
+    public Puzzle(String id, String name, String description, String solution)
     {
-        this.puzzleID = puzzleID;
-        this.puzzleType = puzzleType;
-        this.puzzleDescription = puzzleDescription;
-        this.puzzleSolution = puzzleSolution;
+        this.id = id;
+        this.name = name;
+        this.description = description;
+        this.solution = solution;
     }
 
-    public String getPuzzleID()
+    public String getId()
     {
-        return this.puzzleID;
+        return id;
     }
 
-    public void setPuzzleID(String puzzleID)
+    public String getName()
     {
-        this.puzzleID = puzzleID;
+        return name;
     }
 
-    public String getPuzzleType()
+    public String getDescription()
     {
-        return this.puzzleType;
+        return this.description;
     }
 
-    public void setPuzzleType(String puzzleType)
+    public String getSolution()
     {
-        this.puzzleType = puzzleType;
+        return solution;
     }
 
-    public String getPuzzleDescription()
-    {
-        return this.puzzleDescription;
-    }
-
-    public void setPuzzleDescription(String puzzleDescription)
-    {
-        this.puzzleDescription = puzzleDescription;
-    }
-
-    public String getPuzzleSolution()
-    {
-        return this.puzzleSolution;
-    }
-
-    public void setPuzzleSolution()
-    {
-        this.puzzleSolution = puzzleSolution;
-    }
-
-    public static ArrayList<Puzzle>getPuzzleList()
-    {
-        return puzzleList;
-    }
-
-    public String toString()
-    {
-        return "\nPuzzle ID = " + puzzleID + "\nPuzzle Type = " + puzzleType + "\nPuzzle Description = " + puzzleDescription + "\nPuzzle Solution = " + puzzleSolution;
-    }
 }
