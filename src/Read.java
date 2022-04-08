@@ -63,4 +63,34 @@ public class Read {
         return null;
     }
 
+    public static HashMap<String, Puzzle> createsPuzzle() {
+        try {
+            BufferedReader reader = new BufferedReader(new FileReader("Puzzle.txt"));
+            String line = reader.readLine();
+            HashMap<String, Puzzle> puzzle = new HashMap<String, Puzzle>();
+            while(line != null){
+                String id= line;
+                line = reader.readLine();
+                String name = line;
+                name = name.toLowerCase();
+                line = reader.readLine();
+                String description = "";
+                description = description + line;
+                line = reader.readLine();
+                String solution = "";
+                while(!line.equals("END")){
+                    solution = solution + line;
+                    line = reader.readLine();
+                }
+                puzzle.put(name, new Puzzle(id, name, description, solution));
+                line = reader.readLine();
+            }
+            return puzzle;
+        }
+        catch (IOException e) {
+            System.out.println("File could not be accessed, please try again!");
+        }
+        return null;
+    }
+
 }
