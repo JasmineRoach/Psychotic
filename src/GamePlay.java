@@ -1,5 +1,3 @@
-import org.w3c.dom.html.HTMLBRElement;
-
 import java.util.HashMap;
 import java.util.Scanner;
 
@@ -8,6 +6,7 @@ public class GamePlay {
         Player p1 = new Player();
         HashMap<String, Item> item = Read.createsItem();
         HashMap<String, Help> help = Read.help();
+        HashMap<String, Puzzle> puzzle = Read.createsPuzzle();
         Scanner srn = new Scanner(System.in);
         String input = srn.nextLine();
         while (input.equals("Start Game")) {
