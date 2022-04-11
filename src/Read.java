@@ -77,12 +77,16 @@ public class Read {
                 String description = "";
                 description = description + line;
                 line = reader.readLine();
+                String difficulty = line;
+                line = reader.readLine();
+                String reward = line;
+                line = reader.readLine();
                 String solution = "";
                 while(!line.equals("END")){
-                    solution = solution + line;
+                    solution = solution + line ;
                     line = reader.readLine();
                 }
-                puzzle.put(name, new Puzzle(id, name, description, solution));
+                puzzle.put(name, new Puzzle(id, name, description, difficulty, solution, reward));
                 line = reader.readLine();
             }
             return puzzle;
