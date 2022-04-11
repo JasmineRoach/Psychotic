@@ -1,35 +1,42 @@
-P_001
+P00
 Riddle
-I don’t have eyes, but once I did see. I once had thoughts, now white and empty.
-Skull
-END
-P_002
-Word Scramble
-satlce
-Castle
-END
-P_003
+A clerk in the butcher shop is 5’10” tall. What does he weigh?
+Hard
+Meat
+AR02
+P01
 Riddle
-Towns without houses, forests without trees, mountains without boulders and waterless seas.
-Map
-END
-P_004
-Word Scramble
-gdnaer
-Danger
-END
-P_005
+Do they have a 4th of July in England?
+Easy
+Yes
+AR00
+P02
 Riddle
-It is something so magical, it comes to you every night. It takes you places without moving you. To see it, you need to close your eyes. What is it?
-Dream
-END
-P_006
-Word Scramble
-naysfta
-Fantasy
-END
-P_007
+How many times can you subtract the number 5 from 25?
+Easy
+Once
+AR09
+P03
 Riddle
-What is not alive but grows and does not breathe but needs air?
-Fire
-END
+If there are 3 apples and you take away two, how many do you have?
+Easy
+2
+AR06
+P04
+Riddle
+What is the beginning of eternity, the end of time, the beginning of every end, and the end of every place?
+Hard
+e
+AR03
+P05
+Riddle
+Why can’t a man living in the U.S. be buried in Canada?
+Medium
+He cannot be buried if he is not dead
+AR01
+P06
+Riddle
+I am more powerful than God and more evil than the devil. The poor have me, and the rich do not need me. If you eat me, you will die. What am I?
+Hard
+Nothing
+AR04
