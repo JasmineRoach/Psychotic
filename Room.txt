@@ -1,0 +1,160 @@
+R00
+Alpha & Omega
+The inside of the room is foggy and freezing cold. To the south there is a door. This is narrow with what looks like ancient paintings of people. There is a door in front of you and three chests spread around the room.
+S R01
+Easy
+
+
+P03
+R01
+Old Trafford
+This room is south of Alpha & Omega. To the west is a door that looks frozen. To the south there is an opening that leads to a dark hallway. To the East are stairs. This room is moldy. and has skeletons all around. There is a well here and another strange chest.
+N R00 E R04 W R02 S R03
+Easy
+
+M06
+
+R02
+Underground Chapel
+This room is to the West of the Old Trafford. There is a metal door to the south. Inside is a huge antique clock that does not work anymore. There's a round table with chairs around. There is a bookshelf filled with skulls and only one book.
+E R01 S R11
+Easy
+AR02
+M01
+P01
+R03
+Shiganshina
+This room is south of the Old Trafford. To the south are stairs that lead to a lower level. This is room is bigger than any you have entered. There is a huge wall that splits the room vertically in two. One side has cabinets. The other has a long bookshelf filled with books. You find a ghost here.
+N R01 W R11 S R12
+Hard
+AR04
+M02
+
+R04
+Ymir Dream
+This room is east of Old Trafford. To the east is a wooden door. To the south is a room with no door and to the north is another metal door. This room is filled with sand and is oddly bright. There is a dresser that is covered in chains. Almost submerged in the sand is another chest.
+N R05 E R08 W R01 S R06
+Hard
+AR06
+
+
+R05
+Bernabeu
+This room is North of Ymir Dream. There is only one door and it's to the east. The walls are blue and there is a purple carpet. This room has a shelf full of trophies and there are a couple of paintings of people you do not recognize. Here you see a pot with smoke coming out of it. There is a table with plates and silverware on them. There is another chest here as well.
+E R07 S R04
+Hard
+AR01
+M00
+P00
+R06
+Konoha
+This room is South of Ymir Dream. There is a door to east of this room and another south. This room has seven statues of heads. This room has a nice fireplace and a chest next to it. There is a rocking chair as well. You see a casket but it is closed.
+N R04 E R09 S R10
+Medium
+AR05
+M07
+
+R07
+Greed Island
+This is to the east of Bernabeu. The only exit is to the south and the door you entered from. This room has green walls and is brightly lit. This room has two wooden tables and an L-shaped couch. There's a long sideboard that covers half of the wall.
+W R05 S R08
+Easy
+
+M02
+P02
+R08
+Drama Hall
+This room is east of Ymir Dream. There's a side door to the North that connects to R07. This room has three rows of chairs facing an elevated platform with long curtains coming down from the ceiling. In the middle of the elevated platform is a casket.
+N R07 W R04
+Hard
+AR05
+M07
+
+R09
+Rumbling
+This room is east of Konoha.The only exit is back where you entered. This room looks like a bedroom with a king bed. There is a nightstand with an open cabinet. There is a walk-in closet with ancient clothing.
+W R06
+Medium
+
+M04
+P04
+R10
+God Eater
+This room is south of Konoha. This room is very warm and dark. There are chains on the floor, but you cannot see what its constraining.
+N R06
+Easy
+AR06
+M04
+
+R11
+Kami's Lookout
+This room is south of the Underground Chapel. This room's floor has tiles. When you enter there is a throne-like chair and behind that is a large round mirror. There's one chest on each side of the throne.
+N R02 E R03
+Easy
+AR00
+M03
+P05
+R12
+Kino Der Toten
+This room is south of Shiganshina. There is a door to the east and west. This room has a chandelier hanging from the ceiling. there are two flights of stairs that lead to an elevated platform. Under the platform there is a bar.
+N R03 E R14 W R13
+Easy
+AR09
+
+P03
+R13
+Nacht Der Untoten
+This room is west of Kino Der Toten. There is a door to the south. This room looks like it is collapsing with pieces of bricks all over the floor. There is only a chest here.
+E R12 S R16
+Medium
+
+M05
+
+R14
+Five
+This room is east of Kino Der Toten. There is a metal door to the south. In the middle of the room is a fountain. There are empty water buckets next to the fountain. The walls are all white and there is not much furniture except for a dresser in the corner and two chests.
+W R12 S R15
+Easy
+
+M02
+
+R15
+Ascension
+This room is south of Five. There is a door to the west. In the middle of the room are plants that split the room in two. There are multiple tables with chairs next to them on both sides. The walls are green with stained glass on both sides.
+N R14 W R17
+Easy
+
+M06
+
+R16
+Fishman
+This room is south of Nacht Der Untoten. There is a door to the east. This room is made of bricks and has wooden floors. Inside the room is filled with dusty paintings and old furniture covered by a white sheet. There is a piano that has not been used for a while alongside a dresser.
+N R13 E R17
+Easy
+
+
+
+R17
+Dressrosa
+This room is east of Fishman and west of Ascension. There is a door to the south. There are bird cages all over the room. There is a table with chairs. On the side of the room there is a wooden cupboard and a couple of chests.
+E R15 W R16 S R18
+Medium
+AR08
+
+P05
+R18
+Zou
+This room is south of Dressrosa. There is a door to the south. This room is well lit, the walls are made of wood. There is a map of the world and a sculpture of an elephant that touches the ceiling. Around the sculpture are four chests.
+N R17 S R19
+Hard
+
+M07
+
+R19
+Wando
+Last room on the lower level of the mansion. There's no way out but the way you came in, which is north. There is a cauldron with a flame that looks like it cannot be extinguished. The cauldron is in the middle of the room and on an elevated metal pole. The inside is burning hot and here you can see ancient markings on the wall in an ancient language. There is a chest much bigger than the rest you have seen so far.
+N R18
+hard
+AR07
+M01
+P06
