@@ -4,39 +4,46 @@ A clerk in the butcher shop is 5’10” tall. What does he weigh?
 Hard
 Meat
 AR02
+END
 P01
 Riddle
 Do they have a 4th of July in England?
 Easy
 Yes
 AR00
+END
 P02
 Riddle
 How many times can you subtract the number 5 from 25?
 Easy
 Once
 AR09
+END
 P03
 Riddle
 If there are 3 apples and you take away two, how many do you have?
 Easy
 2
 AR06
+END
 P04
 Riddle
 What is the beginning of eternity, the end of time, the beginning of every end, and the end of every place?
 Hard
 e
 AR03
+END
 P05
 Riddle
 Why can’t a man living in the U.S. be buried in Canada?
 Medium
 He cannot be buried if he is not dead
 AR01
+END
 P06
 Riddle
 I am more powerful than God and more evil than the devil. The poor have me, and the rich do not need me. If you eat me, you will die. What am I?
 Hard
 Nothing
 AR04
+END
