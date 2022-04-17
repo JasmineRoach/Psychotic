@@ -29,6 +29,10 @@ public class Player {
 
     }
 
+    public void getHint() {
+
+    }
+
     public void getHelp(){
        for(String name : help1.keySet()){
            String key = name;
