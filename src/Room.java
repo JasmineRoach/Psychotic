@@ -13,6 +13,7 @@ public class Room
     private int visits;
     // hashmap
     private HashMap<String, String> exits = new HashMap<>();
+    private HashMap<String, Item> item_ = new HashMap<String, Item>();
 
     // no argument constructor
     public Room()
@@ -151,5 +152,9 @@ public class Room
     public void setExits(HashMap<String, String> exits)
     {
         this.exits = exits;
+    }
+
+    public HashMap<String, Item> getInventory() {
+        return item_;
     }
 }
