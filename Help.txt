@@ -9,6 +9,7 @@ Let’s player view map
 END
 Inventory
 Let’s player see items
+END
 North
 Direction to go up
 END
