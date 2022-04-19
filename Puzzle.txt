@@ -4,7 +4,7 @@ A clerk in the butcher shop is 5’10” tall. What does he weigh?
 Hard
 It protects your brain.
 Meat
-AR02
+Knife
 END
 P01
 Riddle
@@ -12,7 +12,7 @@ Do they have a 4th of July in England?
 Easy
 A king and queen live here.
 Yes
-AR00
+Throw Fire
 END
 P02
 Riddle
@@ -20,7 +20,7 @@ How many times can you subtract the number 5 from 25?
 Easy
 X marks the spot.
 Once
-AR09
+Puzzle Key
 END
 P03
 Riddle
@@ -28,7 +28,7 @@ If there are 3 apples and you take away two, how many do you have?
 Easy
 Exposure or liability to injury, pain, harm, or loss.
 2
-AR06
+Axe
 END
 P04
 Riddle
@@ -36,7 +36,7 @@ What is the beginning of eternity, the end of time, the beginning of every end, 
 Hard
 A different reality when you sleep.
 e
-AR03
+Super Strength Potion
 END
 P05
 Riddle
@@ -44,7 +44,7 @@ Why can’t a man living in the U.S. be buried in Canada?
 Medium
 Dungeons and Dragons.
 He cannot be buried if he is not dead
-AR01
+Health Potion
 END
 P06
 Riddle
@@ -52,5 +52,5 @@ I am more powerful than God and more evil than the devil. The poor have me, and 
 Hard
 It is extremely hot.
 Nothing
-AR04
+Invisibility
 END
