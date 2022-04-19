@@ -14,6 +14,7 @@ public class Room
     // hashmap
     private HashMap<String, String> exits = new HashMap<>();
     private HashMap<String, Item> item_ = new HashMap<String, Item>();
+    private HashMap<String,Puzzle> puzzle_ = new HashMap<String, Puzzle>();
 
     // no argument constructor
     public Room()
@@ -156,5 +157,9 @@ public class Room
 
     public HashMap<String, Item> getInventory() {
         return item_;
+    }
+
+    public HashMap<String, Puzzle> getDetail() {
+        return puzzle_;
     }
 }
