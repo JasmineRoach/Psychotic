@@ -45,7 +45,7 @@ public class Player {
             System.out.println("Inventory is empty");
         }
         else if(inventory.size() > 5) {
-            System.out.print("To many item");
+            System.out.print("To many item drop some items");
         }
         else { //else
             for (Map.Entry<String, Item> ilt : inventory.entrySet()) {
