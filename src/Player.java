@@ -22,7 +22,7 @@ public class Player {
 
             current.getInventory().remove(item);
             inventory.put(temp.getName(), temp);
-            System.out.println(item + " was successfully added");
+            System.out.println(item + " " + temp.getOutput());
         } else { //else
             System.out.println("Sorry, " + item + " is not in the room.");
         }
@@ -45,7 +45,7 @@ public class Player {
             System.out.println("Inventory is empty");
         }
         else if(inventory.size() > 5) {
-            System.out.print("To many item");
+            System.out.print("To many item drop some items");
         }
         else { //else
             for (Map.Entry<String, Item> ilt : inventory.entrySet()) {
@@ -67,6 +67,11 @@ public class Player {
 
 
      }
+
+    public void look(String item) {
+        System.out.println(inventory.get(item).getDescription());
+
+    }
 
 
 
