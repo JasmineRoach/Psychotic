@@ -22,7 +22,7 @@ public class Player {
 
             current.getInventory().remove(item);
             inventory.put(temp.getName(), temp);
-            System.out.println(item + " was successfully added");
+            System.out.println(item + " " + temp.getOutput());
         } else { //else
             System.out.println("Sorry, " + item + " is not in the room.");
         }
@@ -67,6 +67,11 @@ public class Player {
 
 
      }
+
+    public void look(String item) {
+        System.out.println(inventory.get(item).getDescription());
+
+    }
 
 
 
