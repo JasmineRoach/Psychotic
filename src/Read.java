@@ -79,6 +79,8 @@ public class Read {
                 line = reader.readLine();
                 String difficulty = line;
                 line = reader.readLine();
+                int numAttempts = Integer.parseInt(line);
+                line = reader.readLine();
                 String hint = line;
                 line = reader.readLine();
                 String reward = line;
@@ -88,7 +90,7 @@ public class Read {
                     solution = solution + line ;
                     line = reader.readLine();
                 }
-                puzzle.put(name, new Puzzle(id, name, description, difficulty, hint, solution, reward));
+                puzzle.put(name, new Puzzle(id, name, description, difficulty, numAttempts, hint, solution, reward));
                 line = reader.readLine();
             }
             return puzzle;
