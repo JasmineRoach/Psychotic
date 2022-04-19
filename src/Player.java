@@ -54,6 +54,41 @@ public class Player {
         }
     }
 
+    public void solve(String puzzle, HashMap<String, Room> room) {
+        Room current = room.get(location);
+
+        Puzzle temp = null;
+
+        Item item = null;
+
+        Scanner sc = new Scanner(System.in);
+        if(current.getDetail().containsKey(puzzle)) {
+            temp = current.getDetail().get(puzzle);
+            String item_ = temp.getReward();
+            System.out.println(temp.getDescription());
+            System.out.println(item_);
+            for(int i = 1; i <= temp.getNumAttempts(); i++) {
+                String puz = sc.nextLine();
+                if(puz == temp.getSolution()) {
+                    current.getDetail().remove(puzzle);
+                    current.getInventory().containsKey(item_);
+                    item = current.getInventory().get(item_);
+                    current.getInventory().remove(item_);
+
+                    inventory.put(item.getName(), item);
+
+                    System.out.println("You have answered this " + temp.getName() + " correctly" + " " + item.getOutput());
+
+                    break;
+                }
+                else {
+                    int attemptsLeft = temp.getNumAttempts() - i;
+                    System.out.println("That is incorrect. You have " + attemptsLeft + " attempts left");
+                }
+            }
+        }
+    }
+
     public void getHint() {
 
     }
