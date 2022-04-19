@@ -11,8 +11,21 @@ public class Player {
 
     }
 
-    public void pickup(){
+    public void pickup(String item, HashMap<String, Room> room) {
+        // check whether object is in room you are in
+        Room current = room.get(location);
 
+        Item temp = null;
+
+        if (current.getInventory().containsKey(item)) { // item is in room
+            temp = current.getInventory().get(item);
+
+            current.getInventory().remove(item);
+            inventory.put(temp.getName(), temp);
+            System.out.println(item + " was successfully added");
+        } else { //else
+            System.out.println("Sorry, " + item + " is not in the room.");
+        }
     }
 
     public void drop(){
@@ -27,8 +40,18 @@ public class Player {
 
     }
 
-    public void getInventory(){
-
+    public void getInventory() {
+        if (inventory.isEmpty()) { //if inventory is empty
+            System.out.println("Inventory is empty");
+        }
+        else if(inventory.size() > 5) {
+            System.out.print("To many item");
+        }
+        else { //else
+            for (Map.Entry<String, Item> ilt : inventory.entrySet()) {
+                System.out.println(ilt.getKey());
+            }
+        }
     }
 
     public void getHint() {
