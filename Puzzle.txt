@@ -31,7 +31,7 @@ If there are 3 apples and you take away two, how many do you have?
 Easy
 2
 Exposure or liability to injury, pain, harm, or loss.
-2
+Two
 Axe
 END
 P04
