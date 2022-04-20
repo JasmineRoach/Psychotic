@@ -2,7 +2,7 @@ P00
 Riddle
 A clerk in the butcher shop is 5’10” tall. What does he weigh?
 Hard
-2
+3
 It protects your brain.
 Meat
 Knife
@@ -11,7 +11,7 @@ P01
 Riddle
 Do they have a 4th of July in England?
 Easy
-2
+3
 A king and queen live here.
 Yes
 Throw Fire
@@ -20,7 +20,7 @@ P02
 Riddle
 How many times can you subtract the number 5 from 25?
 Easy
-2
+3
 X marks the spot.
 Once
 Puzzle Key
@@ -29,7 +29,7 @@ P03
 Riddle
 If there are 3 apples and you take away two, how many do you have?
 Easy
-2
+3
 Exposure or liability to injury, pain, harm, or loss.
 Two
 Axe
@@ -38,7 +38,7 @@ P04
 Riddle
 What is the beginning of eternity, the end of time, the beginning of every end, and the end of every place?
 Hard
-2
+3
 A different reality when you sleep.
 e
 Super Strength Potion
@@ -47,7 +47,7 @@ P05
 Riddle
 Why can’t a man living in the U.S. be buried in Canada?
 Medium
-2
+3
 Dungeons and Dragons.
 He cannot be buried if he is not dead
 Health Potion
@@ -56,7 +56,7 @@ P06
 Riddle
 I am more powerful than God and more evil than the devil. The poor have me, and the rich do not need me. If you eat me, you will die. What am I?
 Hard
-2
+3
 It is extremely hot.
 Nothing
 Invisibility
