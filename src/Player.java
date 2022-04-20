@@ -8,6 +8,8 @@ public class Player {
     //private static HashMap<String, Help> help1= new HashMap<String, Help>();
 
     public Player(){
+        location = "Alpha & Omega";
+        health = 20;
 
     }
 
