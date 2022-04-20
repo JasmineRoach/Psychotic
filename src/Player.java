@@ -48,11 +48,32 @@ public class Player {
         }
     }
 
-    public void equip(){
+    public void equip(String item){
+        Item timp = null;
+        if(inventory.containsKey(item)) {
+            timp = inventory.get(item);
+            inventory.remove(item);
+
+            System.out.println(item + " was successfully equip ");
+
+        }
+        else {
+            System.out.println("Sorry no" + item +"to equip");
+        }
+
 
     }
 
-    public void unequip(){
+    public void unequip(String item) {
+        Item timp = null;
+
+        if(!inventory.containsKey(item)) {
+            System.out.println(item + " was successfully unequip ");
+            inventory.put(item, timp);
+        }
+        else {
+            System.out.println("Sorry no " + item + " to unequip");
+        }
 
     }
 
