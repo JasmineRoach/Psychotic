@@ -30,8 +30,22 @@ public class Player {
         }
     }
 
-    public void drop(){
+    public void drop(String item, HashMap<String, Room> room) {
+        Item temp = null;
 
+        if (inventory.containsKey(item)) { //if item is in inventory
+            temp = inventory.get(item);
+            inventory.remove(item);
+
+            Room current = room.get(location);
+
+            current.getInventory().put(temp.getName(), temp);
+            System.out.println(item + " was successfully dropped");
+        }
+
+        else { // else
+            System.out.println("Sorry, " + item + " is not in your inventory.");
+        }
     }
 
     public void equip(){
@@ -110,6 +124,31 @@ public class Player {
 
     }
 
+    public void checkHealth() {
+        System.out.println(health);
+    }
 
+    public void health(String item) {
+
+        Item temp = null;
+        int health4;
+        if(inventory.containsKey(item)) {
+            temp = inventory.get(item);
+            //health4 = temp.getItPoint();
+            //int tot = health4 + health;
+            //health = tot;
+            inventory.remove(item);
+            System.out.println("Your health has increase from " + item + " by " );
+        }
+        else {
+            System.out.println("Can't use " + item + " for health");
+        }
+
+    }
+
+    public static String getLocation()
+    {
+        return location;
+    }
 
 }
