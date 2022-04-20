@@ -100,10 +100,16 @@ public class Player {
                 else {
                     int attemptsLeft = temp.getNumAttempts() - i;
                     System.out.println("That is incorrect. You have " + attemptsLeft + " attempts left");
+                    double playerHealth = .25 * Player.health;
+                    System.out.println("You have " + playerHealth + "health points left");
+                    for (int o=0; o < inventory.size(); o++)
+                    {
+                        inventory.remove(o);
+                    }
+                    }
                 }
             }
         }
-    }
 
     public void getHint() {
 
