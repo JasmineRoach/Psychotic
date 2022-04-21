@@ -106,7 +106,7 @@ public class Player {
             System.out.println(item_);
             for(int i = 1; i <= temp.getNumAttempts(); i++) {
                 String puz = sc.nextLine();
-                if(puz == temp.getSolution()) {
+                if (puz.equalsIgnoreCase(temp.getSolution())) {
                     current.getDetail().remove(puzzle);
                     current.getInventory().containsKey(item_);
                     item = current.getInventory().get(item_);
@@ -117,6 +117,13 @@ public class Player {
                     System.out.println("You have answered this " + temp.getName() + " correctly" + " " + item.getOutput());
 
                     break;
+                }
+                else if(sc.equals("hint")) {
+                    System.out.println(temp.getHint());
+                }
+                else if(sc.equals("skip")) {
+                    System.out.println("You decided to skip this puzzle.");
+                    System.out.println(current);
                 }
                 else {
                     int attemptsLeft = temp.getNumAttempts() - i;
@@ -131,10 +138,6 @@ public class Player {
                 }
             }
         }
-
-    public void getHint() {
-
-    }
 
     public void getHelp(){
        for(String name : help1.keySet()){
