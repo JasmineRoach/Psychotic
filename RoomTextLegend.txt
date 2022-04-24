@@ -6,19 +6,21 @@ The arrows pointing to the lines are what attributes they go into.
 
 R02                         <- roomID (String)
 Underground Chapel          <- roomName (String)
-This room is to the west... <- roomDesc (String)
-E R01 S R11                 <- exits (HashMap<String, String>)
+This room is to the west.#.. <- roomDesc (String)
+@:R01:@:R11                 <- exits (String[])
 Easy                        <- difficulty (String)
 AR02                        <- artifactID (String)
 M01                         <- monsterID (String)
 P01                         <- puzzleID (String)
+FINISH
 
+Hashtags/Pound symbols (#) are put in the description string to help with readibility for the player
 
-If there is a blank amongst the artifact, monster, and/or puzzle line, then that room does not have that specific
+If there is a dash/hyphen amongst the artifact, monster, and/or puzzle line, then that room does not have that specific
 attribute located in that room.
 
-The exit directions are always in the North, East, West, South order. If the exit is missing one or more of these
-directions, then it simply does not have that direction.
+The exit directions are always in the North, East, West, South order, divided by a colon. If the exit is missing one or more of these
+directions, then an @ will be in place, notifying the program that the specified direction doesn't have an exit.
 
 The game will hold the value of how many times the player visited the room. That value is not pulled from the text file.
 

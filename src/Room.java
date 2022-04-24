@@ -11,8 +11,11 @@ public class Room
     private String monsterID;
     private String puzzleID;
     private int visits;
+
+    //array string for exits of rooms
+    private String[] exits;
     // hashmap
-    private HashMap<String, String> exits = new HashMap<>();
+
     private HashMap<String, Item> item_ = new HashMap<String, Item>();
     private HashMap<String,Puzzle> puzzle_ = new HashMap<String, Puzzle>();
 
@@ -30,7 +33,7 @@ public class Room
     }
 
     // constructor with arguments
-    public Room(String roomID, String roomName, String roomDesc, String difficulty, HashMap<String, String> exits, String artifactID, String monsterID, String puzzleID, int visits)
+    public Room(String roomID, String roomName, String roomDesc, String difficulty, String[] exits, String artifactID, String monsterID, String puzzleID, int visits)
     {
         this.roomID = roomID;
         this.roomName = roomName;
@@ -46,8 +49,12 @@ public class Room
     // explore method that's called when the player types in explore.
     public void explore()
     {
+        String[] descArray = roomDesc.split("#");
         System.out.println(roomName);
-        System.out.println(roomDesc);
+        for (int d = 0;d < descArray.length;d++)
+        {
+            System.out.println(descArray[d]);
+        }
         if (visits < 1)
         {
             System.out.println("This is the first time you've been in this room.");
@@ -61,7 +68,6 @@ public class Room
             System.out.println("You have been in this room a lot. Are you lost?");
         }
     }
-
 
 
     // getters and setters
@@ -145,12 +151,12 @@ public class Room
         this.visits = visits;
     }
 
-    public HashMap<String, String> getExits()
+    public String[] getExits()
     {
         return exits;
     }
 
-    public void setExits(HashMap<String, String> exits)
+    public void setExits(String[] exits)
     {
         this.exits = exits;
     }
