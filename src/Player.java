@@ -2,14 +2,14 @@ import java.util.*;
 public class Player {
     //private static String help;
     private static String location;
-    private static int health;
+    private static double health;
     HashMap<String, Help> help1 = Read.help();
     private static Map<String, Item> inventory = new HashMap<String, Item>();
     //private static HashMap<String, Help> help1= new HashMap<String, Help>();
 
     public Player(){
         location = "Alpha & Omega";
-        health = 20;
+        health = 20.0;
 
     }
 
@@ -50,12 +50,12 @@ public class Player {
 
     public void equip(String item){
         Item timp = null;
-        int health2;
+        double health2;
         if(inventory.containsKey(item)) {
             timp = inventory.get(item);
             inventory.remove(item);
             health2 = timp.getHpPoint();
-            int health3 = health + health2;
+            double health3 = health + health2;
             health = health3;
             System.out.println(item + " was successfully equip and hp was added to health " + health);
 
@@ -131,9 +131,12 @@ public class Player {
                 else {
                     int attemptsLeft = temp.getNumAttempts() - i;
                     System.out.println("That is incorrect. You have " + attemptsLeft + " attempts left");
-                    double playerHealth = .25 * Player.health;
-                    inventory.clear();
-                    System.out.println("You have " + playerHealth + "health points left");
+                    if(attemptsLeft == 0){
+                        double playerHealth = .25 * Player.health;
+                        inventory.clear();
+                        System.out.println("You have " + playerHealth + "health points left");
+
+                    }
                     }
                 }
             }
@@ -161,11 +164,11 @@ public class Player {
     public void health(String item) {
 
         Item temp = null;
-        int health4;
+        double health4;
         if(inventory.containsKey(item)) {
             temp = inventory.get(item);
             health4 = temp.getHpPoint();
-            int tot = health4 + health;
+            double tot = health4 + health;
             health = tot;
             inventory.remove(item);
             System.out.println("Your health has increase from " + item + " by " );
