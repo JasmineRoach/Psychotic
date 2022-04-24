@@ -9,10 +9,7 @@ Underground Chapel          <- roomName (String)
 This room is to the west.#.. <- roomDesc (String)
 @:R01:@:R11                 <- exits (String[])
 Easy                        <- difficulty (String)
-AR02                        <- artifactID (String)
-M01                         <- monsterID (String)
-P01                         <- puzzleID (String)
-FINISH
+FINISH                      <- notifies the program that the current object is finished with using this section of the file.
 
 Hashtags/Pound symbols (#) are put in the description string to help with readibility for the player
 
