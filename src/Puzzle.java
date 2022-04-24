@@ -7,6 +7,7 @@
  */
 public class Puzzle {
     private String id;
+    private String location;
     private String name;
     private String description;
     private String difficulty;
@@ -16,9 +17,10 @@ public class Puzzle {
     private String reward;
 
 
-    public Puzzle(String id, String name, String description, String difficulty, int numAttempts, String hint, String solution, String reward)
+    public Puzzle(String id, String location, String name, String description, String difficulty, int numAttempts, String hint, String solution, String reward)
     {
         this.id = id;
+        this.location = location;
         this.name = name;
         this.description = description;
         this.difficulty = difficulty;
@@ -32,6 +34,8 @@ public class Puzzle {
     {
         return id;
     }
+
+    public String getLocation() { return location; }
 
     public String getName()
     {

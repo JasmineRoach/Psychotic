@@ -1,4 +1,5 @@
 P00
+Bernabeu
 Riddle
 A clerk in the butcher shop is 5’10” tall. What does he weigh?
 Hard
@@ -8,6 +9,7 @@ Meat
 Knife
 END
 P01
+Underground Chapel
 Riddle
 Do they have a 4th of July in England?
 Easy
@@ -17,6 +19,7 @@ Yes
 Throw Fire
 END
 P02
+Greed Island
 Riddle
 How many times can you subtract the number 5 from 25?
 Easy
@@ -26,6 +29,7 @@ Once
 Puzzle Key
 END
 P03
+Alpha & Omega
 Riddle
 If there are 3 apples and you take away two, how many do you have?
 Easy
@@ -35,6 +39,7 @@ Two
 Axe
 END
 P04
+Rumbling
 Riddle
 What is the beginning of eternity, the end of time, the beginning of every end, and the end of every place?
 Hard
@@ -44,6 +49,7 @@ e
 Super Strength Potion
 END
 P05
+Dressrosa
 Riddle
 Why can’t a man living in the U.S. be buried in Canada?
 Medium
@@ -53,6 +59,7 @@ He cannot be buried if he is not dead
 Health Potion
 END
 P06
+Wando
 Riddle
 I am more powerful than God and more evil than the devil. The poor have me, and the rich do not need me. If you eat me, you will die. What am I?
 Hard
