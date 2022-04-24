@@ -41,11 +41,33 @@ public class Read {
         return null;
     }
 
-    public static HashMap<String, Room> createRoom()
-    {
-        //placeholder method will be the method that reads the room text file to create the rooms
-        return null;
-    }
+    /**
+     * reading room file method commented out to avoid any compile errors - Austin
+     *
+     * public static HashMap<String, Room> createRoom(HashMap<String, Item> item, HashMap<String, Puzzle> puzzle, HashMap<String, Monster> monster)
+     *     {
+     *         try
+     *         {
+     *             BufferedReader bufread = new BufferedReader(new FileReader("Room.txt"));
+     *             String li = bufread.readLine();
+     *             HashMap<String, Room> room = new HashMap<String, Room>();
+     *
+     *             while (li != null)
+     *             {
+     *                 String name = li;
+     *
+     *             }
+     *         }
+     *         catch (IOException e)
+     *         {
+     *             System.out.println("File not found, Give it another shot.");
+     *         }
+     *
+     *
+     *     }
+     *
+     */
+
 
 
 

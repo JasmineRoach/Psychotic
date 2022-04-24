@@ -7,9 +7,9 @@ The arrows pointing to the lines are what attributes they go into.
 R02                         <- roomID (String)
 Underground Chapel          <- roomName (String)
 This room is to the west.#.. <- roomDesc (String)
+FINISH                      <- notifies the program that the description is finished.
 @:R01:@:R11                 <- exits (String[])
 Easy                        <- difficulty (String)
-FINISH                      <- notifies the program that the current object is finished with using this section of the file.
 
 Hashtags/Pound symbols (#) are put in the description string to help with readibility for the player
 
