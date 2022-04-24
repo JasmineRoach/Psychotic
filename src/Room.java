@@ -69,6 +69,10 @@ public class Room
         }
     }
 
+    public void move()
+    {
+
+    }
 
     // getters and setters
     public String getRoomID()
