@@ -1,4 +1,5 @@
 import java.util.HashMap;
+import java.util.Locale;
 
 public class Room
 {
@@ -69,9 +70,61 @@ public class Room
         }
     }
 
-    public void move()
+    public void move(String dir, HashMap<String, Room> room)
     {
+        dir = dir.toLowerCase();
+        String spot = Player.getLocation();
+        Room current = room.get(spot);
+        String[] tempRoom = current.getExits();
 
+        if(dir.equalsIgnoreCase("North") || dir.equalsIgnoreCase("N"))
+        {
+            if(!tempRoom[0].equals("@"))
+            {
+                spot = tempRoom[0];
+            }
+            else
+            {
+                System.out.println("There is no exit in this direction. Try another one.");
+            }
+        }
+        else if(dir.equalsIgnoreCase("East") || dir.equalsIgnoreCase("E"))
+        {
+            if(!tempRoom[1].equals("@"))
+            {
+                spot = tempRoom[1];
+            }
+            else
+            {
+                System.out.println("There is no exit in this direction. Try another one.");
+            }
+        }
+        else if(dir.equalsIgnoreCase("West") || dir.equalsIgnoreCase("W"))
+        {
+            if(!tempRoom[2].equals("@"))
+            {
+                spot = tempRoom[2];
+            }
+            else
+            {
+                System.out.println("There is no exit in this direction. Try another one.");
+            }
+        }
+        else if(dir.equalsIgnoreCase("South") || dir.equalsIgnoreCase("S"))
+        {
+            if(!tempRoom[3].equals("@"))
+            {
+                spot = tempRoom[3];
+            }
+            else
+            {
+                System.out.println("There is no exit in this direction. Try another one.");
+            }
+        }
+        else
+        {
+            System.out.println("There is no exit in this direction. Try another one.");
+        }
     }
 
     // getters and setters
