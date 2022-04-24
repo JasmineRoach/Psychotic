@@ -41,6 +41,12 @@ public class Read {
         return null;
     }
 
+    public static HashMap<String, Room> createRoom()
+    {
+        //placeholder method will be the method that reads the room text file to create the rooms
+        return null;
+    }
+
 
 
 
