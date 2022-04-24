@@ -14,8 +14,65 @@ public class Player {
 
     public Player(){
         location = "Alpha & Omega";
-        health = 20.0;
+        health = 5.0;
 
+    }
+
+    public void move(String dir, HashMap<String, Room> room)
+    {
+        dir = dir.toLowerCase();
+        String spot = Player.getLocation();
+        Room current = room.get(spot);
+        String[] tempRoom = current.getExits();
+
+        if(dir.equalsIgnoreCase("North") || dir.equalsIgnoreCase("N"))
+        {
+            if(!tempRoom[0].equals("@"))
+            {
+                spot = tempRoom[0];
+            }
+            else
+            {
+                System.out.println("There is no exit in this direction. Try another one.");
+            }
+        }
+        else if(dir.equalsIgnoreCase("East") || dir.equalsIgnoreCase("E"))
+        {
+            if(!tempRoom[1].equals("@"))
+            {
+                spot = tempRoom[1];
+            }
+            else
+            {
+                System.out.println("There is no exit in this direction. Try another one.");
+            }
+        }
+        else if(dir.equalsIgnoreCase("West") || dir.equalsIgnoreCase("W"))
+        {
+            if(!tempRoom[2].equals("@"))
+            {
+                spot = tempRoom[2];
+            }
+            else
+            {
+                System.out.println("There is no exit in this direction. Try another one.");
+            }
+        }
+        else if(dir.equalsIgnoreCase("South") || dir.equalsIgnoreCase("S"))
+        {
+            if(!tempRoom[3].equals("@"))
+            {
+                spot = tempRoom[3];
+            }
+            else
+            {
+                System.out.println("There is no exit in this direction. Try another one.");
+            }
+        }
+        else
+        {
+            System.out.println("There is no exit in this direction. Try another one.");
+        }
     }
 
     public void pickup(String item, HashMap<String, Room> room) {
@@ -198,12 +255,12 @@ public class Player {
         }
 
 //Allows player to attack monster
-        public void  attack(Monster m, int dmg)  {
+        public void  attack(Monster m, int dmg, int decmonsterHP)  {
 
         System.out.println("monsterHP" + m.getmonsterHP());
-        System.out.println("playerHealth" + getHealth);
-        monsterHP.decreasemonsterHealth(dmg);
-        System.out.println("monster hp:" + m.getmonsterHP));
+        System.out.println("playerHealth" + health);
+        //m.decreasemonsterHealth(dmg);
+        System.out.println("monster hp:" + m.getmonsterHP());
         System.out.println("------");
 
 
