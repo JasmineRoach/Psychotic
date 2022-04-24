@@ -126,7 +126,7 @@ public class Player {
                 }
                 else if(sc.equals("skip")) {
                     System.out.println("You decided to skip this puzzle.");
-                    System.out.println(current);
+                   break;
                 }
                 else {
                     int attemptsLeft = temp.getNumAttempts() - i;
