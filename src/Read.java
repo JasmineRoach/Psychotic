@@ -17,6 +17,10 @@ public class Read {
                 String name = line;
                 name = name.toLowerCase();
                 line = reader.readLine();
+                String location = line.trim();
+                line = reader.readLine();
+                int hpPoint = Integer.parseInt(line);
+                line = reader.readLine();
                 String description = "";
                 description = description + line;
                 line = reader.readLine();
@@ -25,7 +29,7 @@ public class Read {
                     output = output + line ;
                     line = reader.readLine();
                 }
-                item.put(name, new Item(id, name, description, output));
+                item.put(name, new Item(id, name, location, hpPoint, description, output));
                 line = reader.readLine();
 
             }

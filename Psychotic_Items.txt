@@ -1,50 +1,70 @@
 AR00
 Throw Fire
+Underground Chapel
+15
 A power that equips the player with the ability to throw one fireball at a monster.
 I won the power to throw a fireball!
 END
 AR01
 Health Potion
+Kami’s Lookout
+30
 A magical potion that allows the player to increase their health points by 30.
 I won a health potion!
 END
 AR02
 Knife
+Bernabeu
+20
 A weapon that allows the player to inflict health damage to monsters
 I won a knife!
 END
 AR03
 Super Strength Potion
+Rumbling
+40
 A magical potion which gives the player super strength
 I picked up a super strength potion.
 END
 AR04
 Invisibility
+Wando
+10
 A power that equips the user with the power to turn invisible
 I picked up the power of invisibility
 END
 AR05
 Water Balls
+Drama Hall
+10
 A power that equips the player with the ability to throw a water ball at a monster
-I won the power to throw a water ball!
+I picked up the power to throw a water ball!
 END
 AR06
 Axe
+Kino Der Toten
+30
 A weapon on that allows the player to inflict health damage to monsters
-I picked up an axe
+I won an axe!
 END
 AR07
 Notes
+Wando
+0
 A treasure that equips the player with pieces of knowledge from the original traveler that made it through the mansion
 I won a note!
 END
 AR08
 Impenetrable Armor
+Dressrosa
+40
 This power equips the player with the ability to turn their body into armor
-I won impenetrable armor!
+I picked up the impenetrable armor!
 END
 AR09
 Puzzle Key
+Greed Island
+0
 This treasure equips the player with a key to solve a puzzle
 I won a puzzle key!
 END

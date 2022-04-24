@@ -50,11 +50,14 @@ public class Player {
 
     public void equip(String item){
         Item timp = null;
+        int health2;
         if(inventory.containsKey(item)) {
             timp = inventory.get(item);
             inventory.remove(item);
-
-            System.out.println(item + " was successfully equip ");
+            health2 = timp.getHpPoint();
+            int health3 = health + health2;
+            health = health3;
+            System.out.println(item + " was successfully equip and hp was added to health " + health);
 
         }
         else {
@@ -129,11 +132,8 @@ public class Player {
                     int attemptsLeft = temp.getNumAttempts() - i;
                     System.out.println("That is incorrect. You have " + attemptsLeft + " attempts left");
                     double playerHealth = .25 * Player.health;
+                    inventory.clear();
                     System.out.println("You have " + playerHealth + "health points left");
-                    for (int o=0; o < inventory.size(); o++)
-                    {
-                        inventory.remove(o);
-                    }
                     }
                 }
             }
@@ -164,9 +164,9 @@ public class Player {
         int health4;
         if(inventory.containsKey(item)) {
             temp = inventory.get(item);
-            //health4 = temp.getItPoint();
-            //int tot = health4 + health;
-            //health = tot;
+            health4 = temp.getHpPoint();
+            int tot = health4 + health;
+            health = tot;
             inventory.remove(item);
             System.out.println("Your health has increase from " + item + " by " );
         }
