@@ -1,0 +1,40 @@
+M00
+Witch
+An old scary woman who can possess magical power.
+HP: 5
+Stats:Weak to physical attacks. Strong against magical attacks.
+M01
+Boogeyman
+A dark creature that prays on malice and evil thoughts.
+HP: 5
+Stats: Weak against magical and physical attacks.
+M02
+Ghost
+The spirit of a dead person.
+HP 5
+Stats: Immune to physical attacks.
+M03
+Ghouls
+An evil phantom that robs graves and eats dead bodies.
+HP: 5
+Stats: Deals more physical damage everytime you hit it.
+M04
+Gargoyle
+A dragon like bat with wings that can breathe fire.
+HP:5
+Stats: Weak against water attacks.
+M05
+Zombie Dogs
+Dead dogs that have arisen from the dead.
+HP: 5
+Stats: Weak against fire attacks.
+M06
+Lich
+Undead skeleton with magical powers.
+HP: 5
+Stats: Immune to magical attakcs.
+M07
+Vampires
+Undead creature that feeds on blood.
+HP:5
+Stats: Health regenerate by 3%.

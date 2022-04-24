@@ -1,10 +1,11 @@
 import java.io.BufferedReader;
 
+import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.*;
 
-public class Read {
+public class  Read {
     public static HashMap<String, Item> createsItem() {
         try {
             @SuppressWarnings("resource")
@@ -100,5 +101,54 @@ public class Read {
         }
         return null;
     }
+//Kingston Code
+    public static HashMap<String, Monster> createsMonster(){
+        try
+    {
+        BufferedReader reader = new BufferedReader(new FileReader("Monster.txt"));
+        String line = reader.readLine();
+        HashMap<String, Monster> puzzle = new HashMap<String, Monster>();
+        while(line != null); {
+            String monsterID = line;
+            line = reader.readLine();
+            String monsterName = line;
+            monsterName = monsterName.toLowerCase();
+            line = reader.readLine();
+            String monsterDescription = line();
+            line = reader.readLine();
+            int monsterHP = Integer.parseInt(line);
+            line = reader.readLine();
+            String monsterStatus = line();
+            line = reader.readLine();
+            String solution = "";
 
-}
+            while(!line.equals("stats")){
+                solution = solution + line;
+
+            }
+
+        HashMap<String, Monster> monster;
+        monster.put(monsterName, new Monster(monsterID,monsterName,monsterDescription,monsterHP, monsterStatus));
+        {
+            return monster;
+        }
+        catch (IOException e)) {
+            System.out.println("Monster file is complete");{
+
+                return null;
+
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+

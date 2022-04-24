@@ -6,6 +6,11 @@ public class Player {
     HashMap<String, Help> help1 = Read.help();
     private static Map<String, Item> inventory = new HashMap<String, Item>();
     //private static HashMap<String, Help> help1= new HashMap<String, Help>();
+    //Allows player to observe the monster and get the current status -Kingston
+    private static String observe;
+    private static String attack;
+    public static HashMap<String, Monster> createsMonster;
+
 
     public Player(){
         location = "Alpha & Omega";
@@ -181,4 +186,28 @@ public class Player {
         return location;
     }
 
+
+
+
+    //Allows user to view the name and status of the monster -Kingston
+    public void observe(String monsterStatus){
+        System.out.println("monsterName" + "monsterStatus");
+        }
+
+//Allows player to attack monster
+        public void  attack(Monster m, int dmg)  {
+
+        System.out.println("monsterHP" + m.getmonsterHP());
+        System.out.println("playerHealth" + getHealth);
+        monsterHP.decreasemonsterHealth(dmg);
+        System.out.println("monster hp:" + m.getmonsterHP));
+        System.out.println("------");
+
+
+
+
 }
+}
+
+
+
