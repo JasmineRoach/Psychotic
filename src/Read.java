@@ -9,11 +9,11 @@ public class  Read {
     public static HashMap<String, Item> createsItem() {
         try {
             @SuppressWarnings("resource")
-           BufferedReader reader = new BufferedReader(new FileReader("Psychotic_Items.txt"));
+            BufferedReader reader = new BufferedReader(new FileReader("Psychotic_Items.txt"));
             String line = reader.readLine();
             HashMap<String, Item> item = new HashMap<String, Item>();
-            while(line != null){
-                String id= line;
+            while (line != null) {
+                String id = line;
                 line = reader.readLine();
                 String name = line;
                 name = name.toLowerCase();
@@ -26,8 +26,8 @@ public class  Read {
                 description = description + line;
                 line = reader.readLine();
                 String output = "";
-                while(!line.equals("END")){
-                    output = output + line ;
+                while (!line.equals("END")) {
+                    output = output + line;
                     line = reader.readLine();
                 }
                 item.put(name, new Item(id, name, location, hpPoint, description, output));
@@ -35,13 +35,11 @@ public class  Read {
 
             }
             return item;
-        }
-        catch (IOException e) {
+        } catch (IOException e) {
             System.out.println("File could not be accessed, please try again!");
         }
         return null;
     }
-
 
 
     //public static HashMap<String, Room> createRoom(HashMap<String, Item> item, HashMap<String, Puzzle> puzzle, HashMap<String, Monster> monster)
@@ -52,63 +50,59 @@ public class  Read {
     //              String li = bufread.readLine();
     //              HashMap<String, Room> room = new HashMap<String, Room>();
 //
-  //                while (li != null)
+    //                while (li != null)
     //              {
-      //                String roomID = li;
+    //                String roomID = li;
 //
-  //                    li = bufread.readLine();
+    //                    li = bufread.readLine();
     //                  String roomName = li;
-      //
-        //              li = bufread.readLine();
-          //            String roomDesc = li;
-            //          while (!li.equals("FINISH"))
-              //        {
-                //          roomDesc = roomDesc + li;
-                  //        li = bufread.readLine();
-                    //  }
+    //
+    //              li = bufread.readLine();
+    //            String roomDesc = li;
+    //          while (!li.equals("FINISH"))
+    //        {
+    //          roomDesc = roomDesc + li;
+    //        li = bufread.readLine();
+    //  }
 //
-  //                    li = bufread.readLine();
+    //                    li = bufread.readLine();
     //                  String[] exits = li.split("@");
-      //                for (int l = 0; l < exits.length; l++)
-        //              {
-          //                exits[l] = exits[l].trim();
-            //          }
-              //
-                //      li = bufread.readLine();
-                  //    String difficulty = li;
-                    //
+    //                for (int l = 0; l < exits.length; l++)
+    //              {
+    //                exits[l] = exits[l].trim();
+    //          }
+    //
+    //      li = bufread.readLine();
+    //    String difficulty = li;
+    //
 //                      room.put(roomID, new Room(roomID, roomName, roomDesc, exits, difficulty, item, monster, puzzle));
-  //
+    //
     //                  li = bufread.readLine();
 //
-  //                }
+    //                }
     //              return room;
-      //        }
-        //      catch (IOException ioe)
-          //    {
-            //      System.out.println("File not found, Give it another shot.");
-              //}
-              //return null;
+    //        }
+    //      catch (IOException ioe)
+    //    {
+    //      System.out.println("File not found, Give it another shot.");
+    //}
+    //return null;
 
 
-
-     //}
-
+    //}
 
 
-
-
-    public static HashMap<String, Help> help(){
-        try{
+    public static HashMap<String, Help> help() {
+        try {
             @SuppressWarnings("resource")
             BufferedReader reader = new BufferedReader(new FileReader("Help.txt"));
             String line = reader.readLine();
             HashMap<String, Help> help = new HashMap<String, Help>();
-            while(line != null){
+            while (line != null) {
                 String name = line;
                 line = reader.readLine();
                 String description = "";
-                while(!line.equals("END")){
+                while (!line.equals("END")) {
                     description = description + line;
                     line = reader.readLine();
                 }
@@ -117,8 +111,7 @@ public class  Read {
 
             }
             return help;
-        }
-        catch(IOException a){
+        } catch (IOException a) {
             System.out.println("File could not be accessed, please try again!");
         }
         return null;
@@ -129,8 +122,8 @@ public class  Read {
             BufferedReader reader = new BufferedReader(new FileReader("Puzzle.txt"));
             String line = reader.readLine();
             HashMap<String, Puzzle> puzzle = new HashMap<String, Puzzle>();
-            while(line != null){
-                String id= line;
+            while (line != null) {
+                String id = line;
                 line = reader.readLine();
                 String location = line;
                 line = reader.readLine();
@@ -149,16 +142,15 @@ public class  Read {
                 String reward = line;
                 line = reader.readLine();
                 String solution = "";
-                while(!line.equals("END")){
-                    solution = solution + line ;
+                while (!line.equals("END")) {
+                    solution = solution + line;
                     line = reader.readLine();
                 }
                 puzzle.put(name, new Puzzle(id, location, name, description, difficulty, numAttempts, hint, solution, reward));
                 line = reader.readLine();
             }
             return puzzle;
-        }
-        catch (IOException e) {
+        } catch (IOException e) {
             System.out.println("File could not be accessed, please try again!");
         }
         return null;
@@ -169,18 +161,18 @@ public class  Read {
     {
         BufferedReader reader = new BufferedReader(new FileReader("Monster.txt"));
         String line = reader.readLine();
-        HashMap<String, Monster> puzzle = new HashMap<String, Monster>();
+        HashMap<String, Monster> monster = new HashMap<String, Monster>();
         while(line != null); {
             String monsterID = line;
             line = reader.readLine();
             String monsterName = line;
             monsterName = monsterName.toLowerCase();
             line = reader.readLine();
-            String monsterDescription = line();
+            String monsterDescription = line;
             line = reader.readLine();
             int monsterHP = Integer.parseInt(line);
             line = reader.readLine();
-            String monsterStatus = line();
+            String monsterStatus = line;
             line = reader.readLine();
             String solution = "";
 
