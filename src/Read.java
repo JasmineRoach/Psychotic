@@ -41,32 +41,57 @@ public class Read {
         return null;
     }
 
-    /**
-     * reading room file method commented out to avoid any compile errors - Austin
-     *
-     * public static HashMap<String, Room> createRoom(HashMap<String, Item> item, HashMap<String, Puzzle> puzzle, HashMap<String, Monster> monster)
-     *     {
-     *         try
-     *         {
-     *             BufferedReader bufread = new BufferedReader(new FileReader("Room.txt"));
-     *             String li = bufread.readLine();
-     *             HashMap<String, Room> room = new HashMap<String, Room>();
-     *
-     *             while (li != null)
-     *             {
-     *                 String name = li;
-     *
-     *             }
-     *         }
-     *         catch (IOException e)
-     *         {
-     *             System.out.println("File not found, Give it another shot.");
-     *         }
-     *
-     *
-     *     }
-     *
-     */
+
+
+    //public static HashMap<String, Room> createRoom(HashMap<String, Item> item, HashMap<String, Puzzle> puzzle, HashMap<String, Monster> monster)
+    //{
+    //          try
+    //          {
+    //              BufferedReader bufread = new BufferedReader(new FileReader("Room.txt"));
+    //              String li = bufread.readLine();
+    //              HashMap<String, Room> room = new HashMap<String, Room>();
+//
+  //                while (li != null)
+    //              {
+      //                String roomID = li;
+//
+  //                    li = bufread.readLine();
+    //                  String roomName = li;
+      //
+        //              li = bufread.readLine();
+          //            String roomDesc = li;
+            //          while (!li.equals("FINISH"))
+              //        {
+                //          roomDesc = roomDesc + li;
+                  //        li = bufread.readLine();
+                    //  }
+//
+  //                    li = bufread.readLine();
+    //                  String[] exits = li.split("@");
+      //                for (int l = 0; l < exits.length; l++)
+        //              {
+          //                exits[l] = exits[l].trim();
+            //          }
+              //
+                //      li = bufread.readLine();
+                  //    String difficulty = li;
+                    //
+//                      room.put(roomID, new Room(roomID, roomName, roomDesc, exits, difficulty, item, monster, puzzle));
+  //
+    //                  li = bufread.readLine();
+//
+  //                }
+    //              return room;
+      //        }
+        //      catch (IOException ioe)
+          //    {
+            //      System.out.println("File not found, Give it another shot.");
+              //}
+              //return null;
+
+
+
+     //}
 
 
 
