@@ -169,6 +169,8 @@ public class  Read {
                 String monsterName = line;
                 monsterName = monsterName.toLowerCase();
                 line = reader.readLine();
+                String location = line.trim();
+                line = reader.readLine();
                 String monsterDescription = line;
                 line = reader.readLine();
                 int monsterHP = Integer.parseInt(line);
@@ -177,12 +179,12 @@ public class  Read {
                 line = reader.readLine();
                 String solution = "";
 
-                while (!line.equals("stats")) {
+                while (!line.equals("END")) {
                     solution = solution + line;
                     line = reader.readLine();
 
                 }
-                monster.put(monsterName, new Monster(monsterID, monsterName, monsterDescription, monsterHP, monsterStatus));
+                monster.put(monsterName, new Monster(monsterID, monsterName, monsterDescription, monsterHP, monsterStatus, location));
                 line = reader.readLine();
             }
             return monster;

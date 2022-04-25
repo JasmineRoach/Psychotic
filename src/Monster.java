@@ -7,15 +7,17 @@ public class Monster {
     private String monsterDescription;
     private int monsterHP;
     private String monsterStatus;
+    private String location;
 
 
-    public Monster(String monsterID, String monsterName, String monsterDescription, int monsterHP, String monsterStatus)
+    public Monster(String monsterID, String monsterName, String monsterDescription, int monsterHP, String monsterStatus, String location)
     {
         this.monsterID = monsterID;
         this.monsterName = monsterName;
         this.monsterDescription = monsterDescription;
         this.monsterHP = monsterHP;
         this.monsterStatus = monsterStatus;
+        this.location = location;
 
 }
 
@@ -41,4 +43,8 @@ public String getMonsterStatus(){
     return monsterStatus;
 
 }
+
+    public String getLocation() {
+        return location;
+    }
 }

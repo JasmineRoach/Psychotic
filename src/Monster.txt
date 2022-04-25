@@ -1,40 +1,56 @@
 M00
 Witch
+Bernabeu
 An old scary woman who can possess magical power.
-HP: 5
+5
 Stats:Weak to physical attacks. Strong against magical attacks.
+END
 M01
 Boogeyman
+Underground Chapel
 A dark creature that prays on malice and evil thoughts.
-HP: 5
+5
 Stats: Weak against magical and physical attacks.
+END
 M02
 Ghost
+Shiganshina
 The spirit of a dead person.
-HP 5
+5
 Stats: Immune to physical attacks.
+END
 M03
 Ghouls
+Kami's Lookout
 An evil phantom that robs graves and eats dead bodies.
-HP: 5
+5
 Stats: Deals more physical damage everytime you hit it.
+END
 M04
 Gargoyle
+God eater
 A dragon like bat with wings that can breathe fire.
-HP:5
+5
 Stats: Weak against water attacks.
+END
 M05
 Zombie Dogs
+Nacht Der Untoten
 Dead dogs that have arisen from the dead.
-HP: 5
+5
 Stats: Weak against fire attacks.
+END
 M06
 Lich
+Old Trafford
 Undead skeleton with magical powers.
-HP: 5
+5
 Stats: Immune to magical attakcs.
+END
 M07
 Vampires
+Konoha
 Undead creature that feeds on blood.
-HP:5
+5
 Stats: Health regenerate by 3%.
+END
