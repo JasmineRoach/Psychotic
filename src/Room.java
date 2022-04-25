@@ -8,43 +8,35 @@ public class Room
     private String roomName;
     private String roomDesc;
     private String difficulty;
-    private String artifactID;
-    private String monsterID;
-    private String puzzleID;
+    //private String artifactID;
+    //private String monsterID;
+    //private String puzzleID;
     private int visits;
 
     //array string for exits of rooms
     private String[] exits;
+
     // hashmap
+    private HashMap<String, Item> itemH = new HashMap<String, Item>();
+    private HashMap<String,Puzzle> puzzleH = new HashMap<String, Puzzle>();
+    private HashMap<String, Monster> monsterH = new HashMap<String, Monster>();
 
-    private HashMap<String, Item> item_ = new HashMap<String, Item>();
-    private HashMap<String,Puzzle> puzzle_ = new HashMap<String, Puzzle>();
 
-    // no argument constructor
-    public Room()
-    {
-        roomID = "R0";
-        roomName = "Nothingness";
-        roomDesc = "it's so cold and empty. Like this shouldn't exist in the first place.";
-        difficulty = "";
-        artifactID = "AR0";
-        monsterID = "M0";
-        puzzleID = "P0";
-        visits = 0;
-    }
 
     // constructor with arguments
-    public Room(String roomID, String roomName, String roomDesc, String difficulty, String[] exits, String artifactID, String monsterID, String puzzleID, int visits)
+    public Room(String roomID, String roomName, String roomDesc, String difficulty, String[] exits, int visits, HashMap<String, Item> itemH, HashMap<String, Puzzle> puzzleH, HashMap<String, Monster> monsterH)
     {
         this.roomID = roomID;
         this.roomName = roomName;
         this.roomDesc = roomDesc;
         this.difficulty = difficulty;
         this.exits = exits;
-        this.artifactID = artifactID;
-        this.monsterID = monsterID;
-        this.puzzleID = puzzleID;
         this.visits = visits;
+        this.itemH = itemH;
+        this.puzzleH = puzzleH;
+        this.monsterH = monsterH;
+
+
     }
 
     // explore method that's called when the player types in explore.
@@ -168,36 +160,6 @@ public class Room
         this.difficulty = difficulty;
     }
 
-    public String getArtifactID()
-    {
-        return artifactID;
-    }
-
-    public void setArtifactID(String artifactID)
-    {
-        this.artifactID = artifactID;
-    }
-
-    public String getMonsterID()
-    {
-        return monsterID;
-    }
-
-    public void setMonsterID(String monsterID)
-    {
-        this.monsterID = monsterID;
-    }
-
-    public String getPuzzleID()
-    {
-        return puzzleID;
-    }
-
-    public void setPuzzleID(String puzzleID)
-    {
-        this.puzzleID = puzzleID;
-    }
-
     public int getVisits()
     {
         return visits;
@@ -219,10 +181,10 @@ public class Room
     }
 
     public HashMap<String, Item> getInventory() {
-        return item_;
+        return itemH;
     }
 
     public HashMap<String, Puzzle> getDetail() {
-        return puzzle_;
+        return puzzleH;
     }
 }
