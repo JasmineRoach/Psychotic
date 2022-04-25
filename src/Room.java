@@ -8,7 +8,6 @@ public class Room
     private String roomID;
     private String roomName;
     private String roomDesc;
-    private String difficulty;
 
     private String[] exits;
     private HashMap<String, Item> itemH = new HashMap<String, Item>();
@@ -16,13 +15,12 @@ public class Room
     private HashMap<String, Monster> monsterH = new HashMap<String, Monster>();
 
 
-    public Room(String roomID, String roomName, String roomDesc, String[] exits, String difficulty, HashMap<String,Item> items, HashMap<String,Monster> monsters, HashMap<String,Puzzle> puzzles)
+    public Room(String roomID, String roomName, String[] exits,String roomDesc, HashMap<String,Item> items, HashMap<String,Monster> monsters, HashMap<String,Puzzle> puzzles)
     {
         this.roomID = roomID;
         this.roomName = roomName;
-        this.roomDesc = roomDesc;
-        this.difficulty = difficulty;
         this.exits = exits;
+        this.roomDesc = roomDesc;
         setItem(items);
         setPuzzle(puzzles);
         setMonster(monsters);
@@ -58,11 +56,11 @@ public class Room
 
         System.out.println("Can exit to the ");
         // traverse neighbors array
-        if (!exits[0].equals("@")) { // if there is spot to north
+        if (!exits[0].equals("-")) { // if there is spot to north
             System.out.print("NORTH, ");
         }
 
-        if (!exits[1].equals("@")) { // if there is spot to south
+        if (!exits[1].equals("-")) { // if there is spot to south
             System.out.print("EAST,");
         }
 
@@ -70,7 +68,7 @@ public class Room
             System.out.print("SOUTH,");
         }
 
-        if (!exits[3].equals("@")) { // if there is spot to west
+        if (!exits[3].equals("-")) { // if there is spot to west
             System.out.print("WEST,");
         }
 
@@ -139,15 +137,6 @@ public class Room
         this.roomDesc = roomDesc;
     }
 
-    public String getDifficulty()
-    {
-        return difficulty;
-    }
-
-    public void setDifficulty(String difficulty)
-    {
-        this.difficulty = difficulty;
-    }
 
     /**
      *

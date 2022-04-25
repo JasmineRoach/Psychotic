@@ -6,8 +6,8 @@ public class GamePlay {
         Player p1 = new Player();
         HashMap<String, Item> item = Read.createsItem();
         HashMap<String, Puzzle> puzzle = Read.createsPuzzle();
-        HashMap<String, Monster> monseter = Read.createsMonster();
-        HashMap<String, Room> room = Read.createRoom(item, puzzle, monseter);
+        HashMap<String, Monster> monster = Read.createsMonster();
+        HashMap<String, Room> room = Read.createRoom(item, monster, puzzle);
         Scanner srn = new Scanner(System.in);
         System.out.println("Please use north, south, east, and west for direction!!");
         System.out.println("Type help if you need help!!");
