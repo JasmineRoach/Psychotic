@@ -1,139 +1,110 @@
 import java.util.HashMap;
 import java.util.Locale;
-
+import java.util.HashMap;
+import java.util.*;
 public class Room
 {
     // attributes
     private String roomID;
     private String roomName;
     private String roomDesc;
-    private String difficulty;
-    //private String artifactID;
-    //private String monsterID;
-    //private String puzzleID;
-    //private int visits;
 
-    //array string for exits of rooms
     private String[] exits;
-
-    // hashmap
     private HashMap<String, Item> itemH = new HashMap<String, Item>();
     private HashMap<String,Puzzle> puzzleH = new HashMap<String, Puzzle>();
     private HashMap<String, Monster> monsterH = new HashMap<String, Monster>();
 
 
-
-    // constructor with arguments
-
-    /**
-     * public Room(String roomID, String roomName, String roomDesc, String difficulty, String[] exits, int visits, HashMap<String, Item> itemH, HashMap<String, Puzzle> puzzleH, HashMap<String, Monster> monsterH)
-     *     {
-     *         this.roomID = roomID;
-     *         this.roomName = roomName;
-     *         this.roomDesc = roomDesc;
-     *         this.difficulty = difficulty;
-     *         this.exits = exits;
-     *         //this.visits = visits;
-     *         this.itemH = itemH;
-     *         this.puzzleH = puzzleH;
-     *         this.monsterH = monsterH;
-     *
-     *
-     *     }
-     *
-     */
-
-
-    public Room(String roomID, String roomName, String roomDesc, String[] exits, String difficulty, HashMap<String,Item> itemH, HashMap<String,Monster> monsterH, HashMap<String,Puzzle> puzzleH)
+    public Room(String roomID, String roomName, String[] exits,String roomDesc, HashMap<String,Item> items, HashMap<String,Monster> monsters, HashMap<String,Puzzle> puzzles)
     {
         this.roomID = roomID;
         this.roomName = roomName;
-        this.roomDesc = roomDesc;
-        this.difficulty = difficulty;
         this.exits = exits;
-        this.itemH = itemH;
-        this.puzzleH = puzzleH;
-        this.monsterH = monsterH;
+        this.roomDesc = roomDesc;
+        setItem(items);
+        setMonster(monsters);
+        setPuzzle(puzzles);
+    }
+
+    public void setItem(HashMap<String, Item> items) {
+        for(Map.Entry<String, Item> ilt : items.entrySet()) {
+            if(ilt.getValue().getLocation().equals(roomName)) {
+                itemH.put(ilt.getKey(), ilt.getValue());
+            }
+        }
+    }
+
+    public void setPuzzle(HashMap<String, Puzzle> puzzles) {
+        for(Map.Entry<String, Puzzle> pzzl : puzzles.entrySet()) {
+            if(pzzl.getValue().getLocation().equals(roomName)) {
+                puzzleH.put(pzzl.getKey(), pzzl.getValue());
+            }
+        }
+    }
+
+    public void setMonster(HashMap<String, Monster> monsters) {
+        for(Map.Entry<String, Monster> mons : monsters.entrySet()) {
+            if(mons.getValue().getLocation().equals(roomName)) {
+                monsterH.put(mons.getKey(), mons.getValue());
+            }
+        }
     }
 
     // explore method that's called when the player types in explore.
-    public void explore()
-    {
-        String[] descArray = roomDesc.split("#");
+    public void look() {
         System.out.println(roomName);
-        for (int d = 0;d < descArray.length;d++)
-        {
-            System.out.println(descArray[d]);
-        }
-        //if (visits < 1)
-        //{
-          //  System.out.println("This is the first time you've been in this room.");
-        //}
-        //else if (visits > 2 && visits < 10)
-        //{
-         //   System.out.println("You've been in this room before.");
-        //}
-        //else if (visits > 11)
-        //{
-          //  System.out.println("You have been in this room a lot. Are you lost?");
-        //}
-    }
+        System.out.println(roomDesc);
 
-    public void move(String dir, HashMap<String, Room> room)
-    {
-        dir = dir.toLowerCase();
-        String spot = Player.getLocation();
-        Room current = room.get(spot);
-        String[] tempRoom = current.getExits();
+        System.out.println("Can exit to the ");
+        // traverse neighbors array
+        if (!exits[0].equals("-")) { // if there is spot to north
+            System.out.print("NORTH, ");
+        }
 
-        if(dir.equalsIgnoreCase("North") || dir.equalsIgnoreCase("N"))
-        {
-            if(!tempRoom[0].equals("@"))
-            {
-                spot = tempRoom[0];
-            }
-            else
-            {
-                System.out.println("There is no exit in this direction. Try another one.");
-            }
+        if (!exits[1].equals("-")) { // if there is spot to south
+            System.out.print("EAST,");
         }
-        else if(dir.equalsIgnoreCase("East") || dir.equalsIgnoreCase("E"))
-        {
-            if(!tempRoom[1].equals("@"))
-            {
-                spot = tempRoom[1];
-            }
-            else
-            {
-                System.out.println("There is no exit in this direction. Try another one.");
-            }
+
+        if (!exits[2].equals("-")) { // if there is spot to east
+            System.out.print("WEST,");
         }
-        else if(dir.equalsIgnoreCase("West") || dir.equalsIgnoreCase("W"))
-        {
-            if(!tempRoom[2].equals("@"))
-            {
-                spot = tempRoom[2];
-            }
-            else
-            {
-                System.out.println("There is no exit in this direction. Try another one.");
-            }
+
+        if (!exits[3].equals("-")) { // if there is spot to west
+            System.out.print("SOUTH,");
         }
-        else if(dir.equalsIgnoreCase("South") || dir.equalsIgnoreCase("S"))
-        {
-            if(!tempRoom[3].equals("@"))
-            {
-                spot = tempRoom[3];
+
+        System.out.println();
+        System.out.println();
+
+        if (itemH.isEmpty()) { // if collection of items in room is empty
+            System.out.println("No items in room, sorry.");
+        } else { // else, items in room, print them out
+            for (Map.Entry<String, Item> ilt : itemH.entrySet()) { // iterate
+                System.out.print(ilt.getKey() + ",");
             }
-            else
-            {
-                System.out.println("There is no exit in this direction. Try another one.");
+            System.out.println(" are in the room.");
+        }
+
+        if(puzzleH.isEmpty()) {
+            System.out.println("No puzzle in room sorry");
+        }
+        else {
+            for(Map.Entry<String, Puzzle> pzzl : puzzleH.entrySet()) {
+                System.out.print(pzzl.getKey() + ",");
             }
+            System.out.println(" are in the room");
         }
-        else
-        {
-            System.out.println("There is no exit in this direction. Try another one.");
+
+        if(monsterH.isEmpty()) {
+            System.out.println("No monster in room sorry");
         }
+        else {
+            for(Map.Entry<String, Monster> mons : monsterH.entrySet()) {
+                System.out.print(mons.getKey() + ",");
+            }
+            System.out.println(" are in the room");
+        }
+
     }
 
     // getters and setters
@@ -167,15 +138,6 @@ public class Room
         this.roomDesc = roomDesc;
     }
 
-    public String getDifficulty()
-    {
-        return difficulty;
-    }
-
-    public void setDifficulty(String difficulty)
-    {
-        this.difficulty = difficulty;
-    }
 
     /**
      *
@@ -206,5 +168,9 @@ public class Room
 
     public HashMap<String, Puzzle> getDetail() {
         return puzzleH;
+    }
+
+    public HashMap<String, Monster> getDetail1(){
+        return monsterH;
     }
 }

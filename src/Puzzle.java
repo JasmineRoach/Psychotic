@@ -17,7 +17,7 @@ public class Puzzle {
     private String reward;
 
 
-    public Puzzle(String id, String location, String name, String description, String difficulty, int numAttempts, String hint, String solution, String reward)
+    public Puzzle(String id, String name, String location,String description, String difficulty, int numAttempts, String hint, String solution, String reward)
     {
         this.id = id;
         this.location = location;
