@@ -254,14 +254,66 @@ public class Player {
         System.out.println("monsterName" + "monsterStatus");
         }
 
-//Allows player to attack monster
-        public void  attack(Monster m, int dmg, int decmonsterHP)  {
+//Allows player to attack monster-Kingston
+        public void  attack(String monster, HashMap<String, Room> room) {
+            Room current = room.get(location);
+            Monster monster1 = null;
+            Scanner response = new Scanner(System.in);
+            if(current.getDetail().containsKey(monster)) {
+                monster1 = current.getDetail().get(monster);
+                System.out.println(monster1.getmonsterDescription());
+                System.out.println("Would you like to attack or ignore?");
+                String input = response.nextLine();
+                if(input.equalsIgnoreCase("Ignore")) {
+                    current.getDetail().remove(monster);
+                    System.out.println("Continue through the mansion");
+                }
+                else if(input.equalsIgnoreCase("Attack")) {
+                    Random hold1 = new Random();
+                    int hold2 = hold1.nextInt(7);
+                    System.out.println(hold2);
+                    if(hold2 < monster.getHold()) {
+                        int tot = monster.getmonsterHP() + monster.getmonsterHP();
+                        double tot1 = health - tot;
+                        health = tot1;
+                        System.out.println(health);
+                    }
+                    else if(hold2 >= monster.getHold()) {
+                        int tot2 = health - monster.getmonsterHP();
+                        health = tot2;
+                        System.out.println(health);
+                    }
+                    if(health < 0) {
+                        System.out.println("You have died. Do you want to quit or start new game");
+                        String input1 = response.nextLine();
+                        if(input1.equalsIgnoreCase("Quit")) {
+                            System.out.println("Goodbye!!");
+                            System.exit(0);
+                        }
+       //                 else if(input1.equalsIgnoreCase("Start New Game")) {
+      //                      Player p1 = new Player();
+       //                     System.out.println( p1.getLocation()+ " \n " +current.getDescription() );
+        //                }
+        //            }
+         //         else {
+           //             System.out.println("Continue the game");
+           //             current.getDetail().remove(monster);
+         //           }
+          //      }
+          //      else {
+          //          System.out.println("No such command");
+          //      }
 
-        System.out.println("monsterHP" + m.getmonsterHP());
-        System.out.println("playerHealth" + health);
-        //m.decreasemonsterHealth(dmg);
-        System.out.println("monster hp:" + m.getmonsterHP());
-        System.out.println("------");
+        //    }
+        //    else {
+      //          System.out.println("No monster here");
+     //       }
+   //     }
+
+        }
+
+
+
 
 
 
