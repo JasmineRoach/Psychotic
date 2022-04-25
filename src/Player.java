@@ -138,7 +138,6 @@ public class Player {
             temp = current.getDetail().get(puzzle);
             String item_ = temp.getReward();
             System.out.println(temp.getDescription());
-            System.out.println(temp.getReward());
             for (int i = 1; i <= temp.getNumAttempts(); i++) {
                 String puz = sc.nextLine();
                 if (puz.equalsIgnoreCase(temp.getSolution())) {
