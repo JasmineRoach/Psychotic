@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e456fa3b-ab80-4465-9c14-607712d116f4" name="Changes" comment="Changed name of hashmapped monster to monster instead of puzzle and removed some parenthesis on the strings = to line.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Psychotic_Items.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Psychotic_Items.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Psychotic/GamePlay.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Psychotic/GamePlay.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Psychotic/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Psychotic/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Psychotic/Read.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Psychotic/Read.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GamePlay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GamePlay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Read.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Read.java" afterDir="false" />
-    </list>
+    <list default="true" id="e456fa3b-ab80-4465-9c14-607712d116f4" name="Changes" comment="Jasmine made changes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -295,7 +286,21 @@
       <option name="project" value="LOCAL" />
       <updated>1650922934680</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Jasmine made changes">
+      <created>1650925486497</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1650925486497</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Jasmine made changes">
+      <created>1650925551456</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1650925551456</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -310,7 +315,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Changed the structure of Puzzle.java to fit the hashmaps in Read.java" />
     <MESSAGE value="Edited Read.java to include a hashmap for creating each puzzle" />
     <MESSAGE value="Added the hashmapped puzzle attribute to GamePlay.java" />
     <MESSAGE value="Edited Puzzle.txt to match the requirements in the Psychotic SRC" />
@@ -335,6 +339,7 @@
     <MESSAGE value="Added location to Puzzle.java" />
     <MESSAGE value="Added location to hash mapped puzzle in Read.java" />
     <MESSAGE value="Changed name of hashmapped monster to monster instead of puzzle and removed some parenthesis on the strings = to line." />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed name of hashmapped monster to monster instead of puzzle and removed some parenthesis on the strings = to line." />
+    <MESSAGE value="Jasmine made changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Jasmine made changes" />
   </component>
 </project>
