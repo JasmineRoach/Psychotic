@@ -138,7 +138,7 @@ public class Player {
             temp = current.getDetail().get(puzzle);
             String item_ = temp.getReward();
             System.out.println(temp.getDescription());
-            System.out.println(temp.getSolution());
+            System.out.println(temp.getReward());
             for (int i = 1; i <= temp.getNumAttempts(); i++) {
                 String puz = sc.nextLine();
                 if (puz.equalsIgnoreCase(temp.getSolution())) {
@@ -152,9 +152,9 @@ public class Player {
                     System.out.println("You have answered this " + temp.getName() + " correctly" + " " + item.getOutput());
 
                     break;
-                } else if (sc.equals("hint")) {
+                } else if (puz.equals("hint")) {
                     System.out.println(temp.getHint());
-                } else if (sc.equals("skip")) {
+                } else if (puz.equals("skip")) {
                     System.out.println("You decided to skip this puzzle.");
                     break;
                 } else {
@@ -165,6 +165,9 @@ public class Player {
                         inventory.clear();
                         System.out.println("You have " + playerHealth + "health points left");
 
+                    }
+                    else  if(attemptsLeft == 2){
+                        System.out.println(temp.getHint());
                     }
                 }
             }

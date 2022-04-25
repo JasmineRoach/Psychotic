@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e456fa3b-ab80-4465-9c14-607712d116f4" name="Changes" comment="Changed name of hashmapped monster to monster instead of puzzle and removed some parenthesis on the strings = to line." />
+    <list default="true" id="e456fa3b-ab80-4465-9c14-607712d116f4" name="Changes" comment="Changed name of hashmapped monster to monster instead of puzzle and removed some parenthesis on the strings = to line.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Psychotic_Items.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Psychotic_Items.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Psychotic/GamePlay.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Psychotic/GamePlay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Psychotic/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Psychotic/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Psychotic/Read.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Psychotic/Read.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GamePlay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GamePlay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Read.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Read.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +33,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="27UmZTAPksA79Ub7sApbtwZ1b4z" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -268,7 +281,21 @@
       <option name="project" value="LOCAL" />
       <updated>1650895424206</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Changed name of hashmapped monster to monster instead of puzzle and removed some parenthesis on the strings = to line.">
+      <created>1650922921323</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1650922921323</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Changed name of hashmapped monster to monster instead of puzzle and removed some parenthesis on the strings = to line.">
+      <created>1650922934680</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1650922934680</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

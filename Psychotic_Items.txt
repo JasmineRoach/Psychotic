@@ -42,7 +42,7 @@ I picked up the power to throw a water ball!
 END
 AR06
 Axe
-Kino Der Toten
+Alpha & Omega
 30
 A weapon on that allows the player to inflict health damage to monsters
 I won an axe!

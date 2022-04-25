@@ -125,14 +125,10 @@ public class GamePlay {
                 }
 
             }
-            else if(command[0].equals("check score")) {
-                if(command.length == 1) {
+            else if(command[0].equals("check")) {
+                if(command.length >= 2) {
                     p1.checkHealth();
                 }
-                else {
-                    System.out.println(command[1] + "not found/doesn't exist, please try again!");
-                }
-
             }
             else if(command[0].equals("solve")) {
                 if(command.length >= 2) {

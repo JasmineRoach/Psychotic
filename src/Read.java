@@ -138,10 +138,12 @@ public class  Read {
                 String hint = line;
                 line = reader.readLine();
                 String solution = "";
-                String reward = line;
+                solution = solution + line;
+                String reward = "";
                 line = reader.readLine();
                 while (!line.equals("END")) {
-                    solution = solution + line;
+                    reward = reward + line;
+                    reward = reward.toLowerCase();
                     line = reader.readLine();
                 }
                 puzzle.put(name, new Puzzle(id, name, location, description, difficulty, numAttempts, hint, solution, reward));
