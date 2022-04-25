@@ -79,6 +79,19 @@ public class GamePlay {
                 }
 
             }
+            else if(command[0].equals("view")){
+                if(command.length >= 2){
+                    String temp = "";
+                    for(int i = 1; i< command.length;i++){
+                        temp = temp + command[i] + " ";
+                    }
+                    temp = temp.trim();
+                    p1.observe(temp,room);
+                }
+                else{
+                    System.out.println(command[1] + " not found/doesn's exist, please try again!");
+                }
+            }
             else if(command[0].equals("attack")) {
                 if(command.length >= 2) {
                     String timp = "";

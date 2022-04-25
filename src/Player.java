@@ -213,8 +213,17 @@ public class Player {
 
 
     //Allows user to view the name and status of the monster -Kingston
-    public void observe(String monsterStatus) {
-        System.out.println("monsterName" + "monsterStatus");
+    public void observe(String monster, HashMap<String, Room> room) {
+        Room current = room.get(location);
+        Monster temp = null;
+        if(current.getDetail1().containsKey(monster)){
+            temp = current.getDetail1().get(monster);
+            System.out.println(temp.getmonsterName() + "\n" + temp.getmonsterDescription() + "\n"
+            + temp.getmonsterHP() + "\n" + temp.getMonsterStatus());
+        }
+        else{
+            System.out.println("No monster to examine");
+        }
     }
 
     //Allows player to attack monster-Kingston
