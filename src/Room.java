@@ -11,7 +11,7 @@ public class Room
     //private String artifactID;
     //private String monsterID;
     //private String puzzleID;
-    private int visits;
+    //private int visits;
 
     //array string for exits of rooms
     private String[] exits;
@@ -24,19 +24,36 @@ public class Room
 
 
     // constructor with arguments
-    public Room(String roomID, String roomName, String roomDesc, String difficulty, String[] exits, int visits, HashMap<String, Item> itemH, HashMap<String, Puzzle> puzzleH, HashMap<String, Monster> monsterH)
+
+    /**
+     * public Room(String roomID, String roomName, String roomDesc, String difficulty, String[] exits, int visits, HashMap<String, Item> itemH, HashMap<String, Puzzle> puzzleH, HashMap<String, Monster> monsterH)
+     *     {
+     *         this.roomID = roomID;
+     *         this.roomName = roomName;
+     *         this.roomDesc = roomDesc;
+     *         this.difficulty = difficulty;
+     *         this.exits = exits;
+     *         //this.visits = visits;
+     *         this.itemH = itemH;
+     *         this.puzzleH = puzzleH;
+     *         this.monsterH = monsterH;
+     *
+     *
+     *     }
+     *
+     */
+
+
+    public Room(String roomID, String roomName, String roomDesc, String[] exits, String difficulty, HashMap<String,Item> itemH, HashMap<String,Monster> monsterH, HashMap<String,Puzzle> puzzleH)
     {
         this.roomID = roomID;
         this.roomName = roomName;
         this.roomDesc = roomDesc;
         this.difficulty = difficulty;
         this.exits = exits;
-        this.visits = visits;
         this.itemH = itemH;
         this.puzzleH = puzzleH;
         this.monsterH = monsterH;
-
-
     }
 
     // explore method that's called when the player types in explore.
@@ -48,18 +65,18 @@ public class Room
         {
             System.out.println(descArray[d]);
         }
-        if (visits < 1)
-        {
-            System.out.println("This is the first time you've been in this room.");
-        }
-        else if (visits > 2 && visits < 10)
-        {
-            System.out.println("You've been in this room before.");
-        }
-        else if (visits > 11)
-        {
-            System.out.println("You have been in this room a lot. Are you lost?");
-        }
+        //if (visits < 1)
+        //{
+          //  System.out.println("This is the first time you've been in this room.");
+        //}
+        //else if (visits > 2 && visits < 10)
+        //{
+         //   System.out.println("You've been in this room before.");
+        //}
+        //else if (visits > 11)
+        //{
+          //  System.out.println("You have been in this room a lot. Are you lost?");
+        //}
     }
 
     public void move(String dir, HashMap<String, Room> room)
@@ -160,15 +177,18 @@ public class Room
         this.difficulty = difficulty;
     }
 
-    public int getVisits()
-    {
-        return visits;
-    }
-
-    public void setVisits(int visits)
-    {
-        this.visits = visits;
-    }
+    /**
+     *
+     * public int getVisits()
+     *     {
+     *         return visits;
+     *     }
+     *
+     *     public void setVisits(int visits)
+     *     {
+     *         this.visits = visits;
+     *     }
+     */
 
     public String[] getExits()
     {

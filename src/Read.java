@@ -77,7 +77,7 @@ public class  Read {
 
                     String difficulty = li;
 
-                     // room.put(roomID, new Room(roomID, roomName, roomDesc, exits, difficulty, itemH, monsterH, puzzleH));
+                     room.put(roomID, new Room(roomID, roomName, roomDesc, exits, difficulty, itemH, monsterH, puzzleH));
 
                       li = bufread.readLine();
 
