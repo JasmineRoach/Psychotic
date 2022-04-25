@@ -137,14 +137,14 @@ public class  Read {
                 line = reader.readLine();
                 String hint = line;
                 line = reader.readLine();
+                String solution = "";
                 String reward = line;
                 line = reader.readLine();
-                String solution = "";
                 while (!line.equals("END")) {
                     solution = solution + line;
                     line = reader.readLine();
                 }
-                puzzle.put(name, new Puzzle(id, name, location,description, difficulty, numAttempts, hint, solution, reward));
+                puzzle.put(name, new Puzzle(id, name, location, description, difficulty, numAttempts, hint, solution, reward));
                 line = reader.readLine();
             }
             return puzzle;
