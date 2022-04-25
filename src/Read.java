@@ -123,10 +123,10 @@ public class  Read {
             while (line != null) {
                 String id = line;
                 line = reader.readLine();
-                String location = line;
-                line = reader.readLine();
                 String name = line;
                 name = name.toLowerCase();
+                line = reader.readLine();
+                String location = line;
                 line = reader.readLine();
                 String description = "";
                 description = description + line;
@@ -144,7 +144,7 @@ public class  Read {
                     solution = solution + line;
                     line = reader.readLine();
                 }
-                puzzle.put(name, new Puzzle(id, location, name, description, difficulty, numAttempts, hint, solution, reward));
+                puzzle.put(name, new Puzzle(id, name, location,description, difficulty, numAttempts, hint, solution, reward));
                 line = reader.readLine();
             }
             return puzzle;

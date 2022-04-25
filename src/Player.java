@@ -226,6 +226,21 @@ public class Player {
         }
     }
 
+    public void view(HashMap<String, Room> room){
+        Room current = room.get(location);
+        Puzzle temp = null;
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter name of the riddle you want to view");
+        String view = in.nextLine();
+        if(current.getDetail().containsKey(view)){
+            temp = current.getDetail().get(view);
+            System.out.println(temp.getName() + "\n" + temp.getDescription());
+        }
+        else{
+            System.out.println("No puzzle to view");
+        }
+    }
+
     //Allows player to attack monster-Kingston
     public void attack(String monster, HashMap<String, Room> room) {
         Room current = room.get(location);

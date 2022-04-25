@@ -101,11 +101,14 @@ public class GamePlay {
                     timp = timp.trim();
                     p1.attack(timp, room);
                 }
+                else if (command.length == 1){
+                    p1.view(room);
+                }
                 else {
                     System.out.print(command[1] + "not found/doesn't exist, please try again!");
                 }
             }
-            else if (command[0].equals("view")) { // if player wants to look
+            else if (command[0].equals("look")) { // if player wants to look
                 // if player wants to look at object
                 if (command.length >= 2) {
                     String temp = "";

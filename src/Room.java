@@ -22,8 +22,8 @@ public class Room
         this.exits = exits;
         this.roomDesc = roomDesc;
         setItem(items);
-        setPuzzle(puzzles);
         setMonster(monsters);
+        setPuzzle(puzzles);
     }
 
     public void setItem(HashMap<String, Item> items) {
@@ -80,7 +80,7 @@ public class Room
             System.out.println("No items in room, sorry.");
         } else { // else, items in room, print them out
             for (Map.Entry<String, Item> ilt : itemH.entrySet()) { // iterate
-                System.out.print(ilt.getKey() + ", ");
+                System.out.print(ilt.getKey() + ",");
             }
             System.out.println(" are in the room.");
         }
