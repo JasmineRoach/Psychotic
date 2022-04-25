@@ -138,7 +138,7 @@ public class Player {
             temp = current.getDetail().get(puzzle);
             String item_ = temp.getReward();
             System.out.println(temp.getDescription());
-            System.out.println(item_);
+            System.out.println(temp.getSolution());
             for (int i = 1; i <= temp.getNumAttempts(); i++) {
                 String puz = sc.nextLine();
                 if (puz.equalsIgnoreCase(temp.getSolution())) {
@@ -230,7 +230,7 @@ public class Player {
         Room current = room.get(location);
         Puzzle temp = null;
         Scanner in = new Scanner(System.in);
-        System.out.println("Enter name of the riddle you want to view");
+        System.out.println("Enter puzzle name");
         String view = in.nextLine();
         if(current.getDetail().containsKey(view)){
             temp = current.getDetail().get(view);

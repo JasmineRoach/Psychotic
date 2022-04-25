@@ -88,6 +88,9 @@ public class GamePlay {
                     temp = temp.trim();
                     p1.observe(temp,room);
                 }
+                else if (command.length == 1){
+                    p1.view(room);
+                }
                 else{
                     System.out.println(command[1] + " not found/doesn's exist, please try again!");
                 }
@@ -100,9 +103,6 @@ public class GamePlay {
                     }
                     timp = timp.trim();
                     p1.attack(timp, room);
-                }
-                else if (command.length == 1){
-                    p1.view(room);
                 }
                 else {
                     System.out.print(command[1] + "not found/doesn't exist, please try again!");
