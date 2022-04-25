@@ -7,8 +7,8 @@
  */
 public class Puzzle {
     private String id;
-    private String location;
     private String name;
+    private String location;
     private String description;
     private String difficulty;
     private int numAttempts;
@@ -20,8 +20,8 @@ public class Puzzle {
     public Puzzle(String id, String name, String location,String description, String difficulty, int numAttempts, String hint, String solution, String reward)
     {
         this.id = id;
-        this.location = location;
         this.name = name;
+        this.location = location;
         this.description = description;
         this.difficulty = difficulty;
         this.numAttempts = numAttempts;
@@ -35,12 +35,12 @@ public class Puzzle {
         return id;
     }
 
-    public String getLocation() { return location; }
-
     public String getName()
     {
         return name;
     }
+
+    public String getLocation() { return location; }
 
     public String getDescription()
     {
