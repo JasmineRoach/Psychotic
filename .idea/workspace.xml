@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="21ee9850-bc69-4b76-9022-7aa36850a982" name="Changes" comment="Jasmine made changes">
+      <change beforePath="$PROJECT_DIR$/Room.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Room.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GamePlay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GamePlay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Monster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Monster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Monster.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Monster.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Read.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Read.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Room.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="27QqrPQnnOIx8mIckZQ14gtZl1C" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="GamePlay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GamePlay" />
+      <module name="Psychotic" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GamePlay" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="21ee9850-bc69-4b76-9022-7aa36850a982" name="Changes" comment="" />
+      <created>1649262858410</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1649262858410</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Jasmine made changes">
+      <created>1649294812685</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1649294812685</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Jasmine made changes">
+      <created>1649295008092</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1649295008092</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Jasmine made changes">
+      <created>1649295022704</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1649295022704</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Jasmine made changes to GamePlay, Help, and Player">
+      <created>1649334159771</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1649334159771</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Jasmine made changes to GamePlay, Help, and Player">
+      <created>1650287643855</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1650287643855</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Jasmine made changes to text file help and item">
+      <created>1650288573150</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1650288573150</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Jasmine made changes to text file help and item">
+      <created>1650288588949</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1650288588949</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Jasmine put a getInventory in Room class">
+      <created>1650289666641</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1650289666641</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Jasmine made changes to Player class">
+      <created>1650329503782</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1650329503782</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Jasmine added a pickup method and inventory method">
+      <created>1650330547816</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1650330547817</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Jasmine added a more to pickup method and look method in player.java">
+      <created>1650371294879</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1650371294879</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Jasmine added a more to pickup method player.java">
+      <created>1650371411342</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1650371411342</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Jasmine made changes to the item txt, added more info to the Player.java">
+      <created>1650459879032</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1650459879032</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Jasmine added checkHealth method, health method, drop method, and getLoctaion method">
+      <created>1650460399816</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1650460399816</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Jasmine added equip and unequip method">
+      <created>1650499035063</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1650499035064</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Jasmine modifed item txt file and updated the equip and health method">
+      <created>1650765182220</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1650765182220</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Jasmine modifed some stuff in the solve method">
+      <created>1650765437153</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1650765437154</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Jasmine modifed some stuff in the solve method">
+      <created>1650765647590</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1650765647590</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Jasmine made changes">
+      <created>1650842818983</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1650842818983</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Jasmine made changes to GamePlay, Help, and Player" />
+    <MESSAGE value="Jasmine made changes to text file help and item" />
+    <MESSAGE value="Jasmine put a getInventory in Room class" />
+    <MESSAGE value="Jasmine made changes to Player class" />
+    <MESSAGE value="Jasmine added a pickup method and inventory method" />
+    <MESSAGE value="Jasmine added a more to pickup method and look method in player.java" />
+    <MESSAGE value="Jasmine added a more to pickup method player.java" />
+    <MESSAGE value="Jasmine made changes to the item txt, added more info to the Player.java" />
+    <MESSAGE value="Jasmine added checkHealth method, health method, drop method, and getLoctaion method" />
+    <MESSAGE value="Jasmine added equip and unequip method" />
+    <MESSAGE value="Jasmine modifed item txt file and updated the equip and health method" />
+    <MESSAGE value="Jasmine modifed some stuff in the solve method" />
+    <MESSAGE value="Jasmine made changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Jasmine made changes" />
+  </component>
+</project>
