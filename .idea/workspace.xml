@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e456fa3b-ab80-4465-9c14-607712d116f4" name="Changes" comment="Changed name of hashmapped monster to monster instead of puzzle and removed some parenthesis on the strings = to line." />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="27UmZTAPksA79Ub7sApbtwZ1b4z" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Individual Assignment 3 Continued" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\vghos\Desktop\Psychotic" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e456fa3b-ab80-4465-9c14-607712d116f4" name="Changes" comment="" />
+      <created>1649383093309</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1649383093309</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Edited the Puzzle.txt file to match the other txt files">
+      <created>1649436622202</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1649436622202</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Edited the Puzzle.txt file to match the other txt files">
+      <created>1649437063605</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1649437063605</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Changed the structure of Puzzle.java to fit the hashmaps in Read.java">
+      <created>1649446489989</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1649446489989</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Edited Read.java to include a hashmap for creating each puzzle">
+      <created>1649449869230</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1649449869230</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added the hashmapped puzzle attribute to GamePlay.java">
+      <created>1649450153716</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1649450153716</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Edited Puzzle.txt to match the requirements in the Psychotic SRC">
+      <created>1649645295116</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1649645295116</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Edited Puzzle.java to match the new Puzzle text file">
+      <created>1649645384029</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1649645384029</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Edited Read.java to match the changes in Puzzle.java">
+      <created>1649701996002</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1649701996002</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Edited Puzzle.txt to match the others">
+      <created>1650204612968</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1650204612969</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Added getHint method to Player class">
+      <created>1650204958230</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1650204958230</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Added hints to the Puzzle.txt file">
+      <created>1650323757917</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1650323757917</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Added the hint method to Puzzle.java">
+      <created>1650323825353</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1650323825353</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Added hint to the hash mapped puzzle in Read.java">
+      <created>1650323902687</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1650323902687</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Changed Item IDs to the actual name of each item">
+      <created>1650396309191</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1650396309191</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Changed Item IDs to the actual name of each item">
+      <created>1650396383505</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1650396383505</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Added number of attempts under the difficulty in Puzzle.txt">
+      <created>1650398366431</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1650398366431</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Added number of attempts under the difficulty in Puzzle.txt">
+      <created>1650398427101</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1650398427101</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Added number of attempts to Puzzle.java">
+      <created>1650398502840</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1650398502840</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Added number of attempts to the Read class in the hash mapped puzzle">
+      <created>1650399324255</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1650399324255</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Small change to Puzzle.txt">
+      <created>1650404092158</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1650404092158</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Added Puzzle HashMap to Room.java">
+      <created>1650404562471</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1650404562471</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Completed Solve method in Player.java">
+      <created>1650404630878</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1650404630878</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Changed attempts to 3 instead of 2 for puzzles">
+      <created>1650463278108</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1650463278108</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Fixed Solve method to fit requirements">
+      <created>1650465169548</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1650465169548</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Finished hint and skip method as well as improved solve method">
+      <created>1650504521685</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1650504521685</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Added locations to puzzle.txt file">
+      <created>1650767958841</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1650767958841</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Added location to Puzzle.java">
+      <created>1650768010955</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1650768010955</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Added location to hash mapped puzzle in Read.java">
+      <created>1650768070890</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1650768070890</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Changed name of hashmapped monster to monster instead of puzzle and removed some parenthesis on the strings = to line.">
+      <created>1650839755555</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1650839755555</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Changed the structure of Puzzle.java to fit the hashmaps in Read.java" />
+    <MESSAGE value="Edited Read.java to include a hashmap for creating each puzzle" />
+    <MESSAGE value="Added the hashmapped puzzle attribute to GamePlay.java" />
+    <MESSAGE value="Edited Puzzle.txt to match the requirements in the Psychotic SRC" />
+    <MESSAGE value="Edited Puzzle.java to match the new Puzzle text file" />
+    <MESSAGE value="Edited Read.java to match the changes in Puzzle.java" />
+    <MESSAGE value="Edited Puzzle.txt to match the others" />
+    <MESSAGE value="Added getHint method to Player class" />
+    <MESSAGE value="Added hints to the Puzzle.txt file" />
+    <MESSAGE value="Added the hint method to Puzzle.java" />
+    <MESSAGE value="Added hint to the hash mapped puzzle in Read.java" />
+    <MESSAGE value="Changed Item IDs to the actual name of each item" />
+    <MESSAGE value="Added number of attempts under the difficulty in Puzzle.txt" />
+    <MESSAGE value="Added number of attempts to Puzzle.java" />
+    <MESSAGE value="Added number of attempts to the Read class in the hash mapped puzzle" />
+    <MESSAGE value="Small change to Puzzle.txt" />
+    <MESSAGE value="Added Puzzle HashMap to Room.java" />
+    <MESSAGE value="Completed Solve method in Player.java" />
+    <MESSAGE value="Changed attempts to 3 instead of 2 for puzzles" />
+    <MESSAGE value="Fixed Solve method to fit requirements" />
+    <MESSAGE value="Finished hint and skip method as well as improved solve method" />
+    <MESSAGE value="Added locations to puzzle.txt file" />
+    <MESSAGE value="Added location to Puzzle.java" />
+    <MESSAGE value="Added location to hash mapped puzzle in Read.java" />
+    <MESSAGE value="Changed name of hashmapped monster to monster instead of puzzle and removed some parenthesis on the strings = to line." />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed name of hashmapped monster to monster instead of puzzle and removed some parenthesis on the strings = to line." />
+  </component>
+</project>
