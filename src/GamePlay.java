@@ -11,6 +11,7 @@ public class GamePlay {
         Scanner srn = new Scanner(System.in);
         System.out.println("Please use north, south, east, and west for direction!!");
         System.out.println("Type help if you need help!!");
+        System.out.println("Type Start Game to Start Game");
         System.out.println(room.get(Player.getLocation()).getRoomDesc());
         String input = srn.nextLine();
         while (input.equals("Start Game")) {

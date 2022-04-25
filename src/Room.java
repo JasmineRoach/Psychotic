@@ -52,6 +52,7 @@ public class Room
 
     // explore method that's called when the player types in explore.
     public void look() {
+        System.out.println(roomName);
         System.out.println(roomDesc);
 
         System.out.println("Can exit to the ");
@@ -65,11 +66,11 @@ public class Room
         }
 
         if (!exits[2].equals("-")) { // if there is spot to east
-            System.out.print("SOUTH,");
+            System.out.print("WEST,");
         }
 
         if (!exits[3].equals("-")) { // if there is spot to west
-            System.out.print("WEST,");
+            System.out.print("SOUTH,");
         }
 
         System.out.println();
