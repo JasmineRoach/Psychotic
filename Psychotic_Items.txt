@@ -68,3 +68,10 @@ Greed Island
 This treasure equips the player with a key to solve a puzzle
 I won a puzzle key!
 END
+AR10
+Axe1
+Ymir dream
+30
+A weapon on that allows the player to inflict health damage to monsters
+I won an axe!
+END

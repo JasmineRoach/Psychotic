@@ -154,7 +154,7 @@ public class Player {
                 } else if (puz.equals("hint")) {
                     System.out.println(temp.getHint());
                 } else if (puz.equals("skip")) {
-                    System.out.println("You decided to skip this puzzle.");
+                    System.out.println("Pass! I’m no Albert Einstein to solve the puzzle!");
                     break;
                 } else {
                     int attemptsLeft = temp.getNumAttempts() - i;
@@ -248,13 +248,12 @@ public class Player {
         Room current = room.get(location);
         Monster monster1 = null;
         Scanner response = new Scanner(System.in);
-        if (current.getDetail().containsKey(monster)) {
+        if (current.getDetail1().containsKey(monster)) {
             monster1 = current.getDetail1().get(monster);
             System.out.println(monster1.getmonsterDescription());
             System.out.println("Would you like to attack or flee?");
             String input = response.nextLine();
             if (input.equalsIgnoreCase("Flee")) {
-                current.getDetail().remove(monster);
                 System.out.println("Continue through the mansion");
             } else if (input.equalsIgnoreCase("Attack")) {
                double attack = health - monster1.getmonsterHP();
@@ -269,6 +268,7 @@ public class Player {
 
                 }
                 else {
+                    System.out.println("You have killed the monster");
                     System.out.println("Continue the game");
                     current.getDetail1().remove(monster);
                 }
@@ -283,6 +283,7 @@ public class Player {
     }
 
     public void look(HashMap<String, Room> rooms) {
+        System.out.println("Let me see what I can find...");
         rooms.get(location).look();
     }
 }

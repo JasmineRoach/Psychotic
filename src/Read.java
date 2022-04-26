@@ -69,7 +69,7 @@ public class  Read {
 
                 while (!line.equals("FINISH")) { // while reader has not hit "END"
                     // add each line to overall string for description
-                    description = description + line;
+                    description = description + line + '\n';
                     line = reader.readLine();
                 }
 
