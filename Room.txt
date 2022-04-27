@@ -78,7 +78,7 @@ Kino Der Toten
 Shiganshina,Five,Nacht Der Untoten,-
 This room is south of Shiganshina. There is a door to the east and west. This room has a chandelier hanging from the ceiling.
 There are two flights of stairs that lead to an elevated platform. Under the platform there is a bar.
-FINSIH
+FINISH
 R13
 Nacht Der Untoten
 -,Kino Der Toten,-,Fishman

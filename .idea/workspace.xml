@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e456fa3b-ab80-4465-9c14-607712d116f4" name="Changes" comment="Jasmine made changes">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Puzzle.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Puzzle.txt" afterDir="false" />
-    </list>
+    <list default="true" id="e456fa3b-ab80-4465-9c14-607712d116f4" name="Changes" comment="Jasmine made changes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -324,7 +321,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651000491516</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Jasmine made changes">
+      <created>1651059677464</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1651059677464</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
