@@ -4,7 +4,7 @@ Bernabeu
 A clerk in the butcher shop is 5’10” tall. What does he weigh?
 Hard
 3
-It protects your brain.
+not kilos or lbs
 Meat
 Knife
 END
@@ -14,7 +14,7 @@ Underground Chapel
 Do they have a 4th of July in England?
 Easy
 3
-A king and queen live here.
+You don't need a hint for something this easy fool!
 Yes
 Throw Fire
 END
@@ -24,7 +24,7 @@ Greed Island
 How many times can you subtract the number 5 from 25?
 Easy
 3
-X marks the spot.
+You don't need a hint for something this easy fool!
 Once
 Puzzle Key
 END
@@ -34,7 +34,7 @@ Alpha & Omega
 If there are 3 apples and you take away two, how many do you have?
 Easy
 3
-Exposure or liability to injury, pain, harm, or loss.
+You dont need a hint for something this easy fool!
 Two
 Axe
 END
@@ -44,7 +44,7 @@ Rumbling
 What is the beginning of eternity, the end of time, the beginning of every end, and the end of every place?
 Hard
 3
-A different reality when you sleep.
+Recall your vowels
 e
 Super Strength Potion
 END
@@ -54,7 +54,7 @@ Dressrosa
 Why can’t a man living in the U.S. be buried in Canada?
 Medium
 3
-Dungeons and Dragons.
+What's the mans living status?
 He cannot be buried if he is not dead
 Health Potion
 END
@@ -64,7 +64,7 @@ Wando
 I am more powerful than God and more evil than the devil. The poor have me, and the rich do not need me. If you eat me, you will die. What am I?
 Hard
 3
-It is extremely hot.
+I regret __!
 Nothing
 Invisibility
 END
