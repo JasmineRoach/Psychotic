@@ -143,7 +143,8 @@ public class GamePlay {
                         System.out.print(command[1] + "not found/doesn't exist, please try again!");
                     }
 
-                } else if (command[0].equals("north") || command[0].equals("east") || command[0].equals("south")
+                }
+                else if (command[0].equals("north") || command[0].equals("east") || command[0].equals("south")
                         || command[0].equals("west")) { // wants to move, only by
                     // giving direction
                     p1.move(command[0], room);
@@ -153,7 +154,7 @@ public class GamePlay {
                     if (command[0].equalsIgnoreCase("inventory")) { // if want to check
                         // inventory
                         p1.getInventory();
-                    } else if (command[0].equalsIgnoreCase("End Game")) { // if want to quit
+                    } else if (command[0].equalsIgnoreCase("Exit")) { // if want to quit
                         System.out.println("Thank you for playing!");
                         System.exit(0);
                     }
@@ -163,6 +164,10 @@ public class GamePlay {
 
 
             }
+        }
+        else if(input.equalsIgnoreCase("End Game")){
+            System.out.println("Thank you for playing!");
+            System.exit(0);
         }
         else {
             System.out.println("Type in Start Game to play!!");
