@@ -79,7 +79,8 @@ public class Player {
 
             current.getInventory().put(temp.getName(), temp);
             System.out.println(item + " was successfully dropped");
-        } else { // else
+        }
+        else { // else
             System.out.println("Sorry, " + item + " is not in your inventory.");
         }
     }
@@ -132,11 +133,15 @@ public class Player {
         Puzzle temp = null;
 
         Item item = null;
+        current.getDetail().containsKey(puzzle);
+        temp = current.getDetail().get(puzzle);
+        String item_ = temp.getReward();
+        current.getInventory().containsKey(item_);
 
         Scanner sc = new Scanner(System.in);
         if (current.getDetail().containsKey(puzzle)) {
             temp = current.getDetail().get(puzzle);
-            String item_ = temp.getReward();
+            //String item_ = temp.getReward();
             System.out.println(temp.getDescription());
             for (int i = 1; i <= temp.getNumAttempts(); i++) {
                 String puz = sc.nextLine();
@@ -151,12 +156,22 @@ public class Player {
                     System.out.println("You have answered this " + temp.getName() + " correctly" + " " + item.getOutput());
 
                     break;
-                } else if (puz.equals("hint")) {
+                } else if (puz.equalsIgnoreCase("hint")) {
                     System.out.println(temp.getHint());
-                } else if (puz.equals("skip")) {
+                } else if (puz.equalsIgnoreCase("skip")) {
                     System.out.println("Pass! I’m no Albert Einstein to solve the puzzle!");
                     break;
-                } else {
+                }else if(puz.equalsIgnoreCase("use puzzle key")){
+                    if(inventory.containsKey("puzzle key")){
+                        System.out.println("You have used puzzle key to answer this puzzle");
+                        inventory.remove("puzzle key");
+                    }
+                    else{
+                        System.out.println("Can't use this item to skip");
+                    }
+                    break;
+                }
+                else {
                     int attemptsLeft = temp.getNumAttempts() - i;
                     System.out.println("That is incorrect. You have " + attemptsLeft + " attempts left");
                     if (attemptsLeft == 0) {
@@ -196,8 +211,9 @@ public class Player {
 
         Item temp = null;
         double health4;
-        if (inventory.containsKey(item)) {
-            temp = inventory.get(item);
+        inventory.containsKey(item);
+        temp = inventory.get(item);
+        if (temp.getType().equalsIgnoreCase("magical potion")) {
             health4 = temp.getHpPoint();
             double tot = health4 + health;
             health = tot;

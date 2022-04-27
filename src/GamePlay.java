@@ -24,7 +24,8 @@ public class GamePlay {
                 if (command[0].equals("help")) {
                     p1.getHelp();
 
-                } else if (command[0].equalsIgnoreCase("pick up")) {
+                }
+                else if (command[0].equalsIgnoreCase("pickup")) {
                     if (command.length >= 2) {
                         String temp = "";
                         for (int i = 1; i < command.length; i++) {
