@@ -165,6 +165,7 @@ public class Player {
                     if(inventory.containsKey("puzzle key")){
                         System.out.println("You have used puzzle key to answer this puzzle");
                         inventory.remove("puzzle key");
+                        current.getDetail().remove(puzzle);
                     }
                     else{
                         System.out.println("Can't use this item to skip");

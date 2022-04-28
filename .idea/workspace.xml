@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e456fa3b-ab80-4465-9c14-607712d116f4" name="Changes" comment="Jasmine made changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Psychotic/GamePlay.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Psychotic/GamePlay.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Psychotic/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Psychotic/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GamePlay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GamePlay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -368,7 +366,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651098321263</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Jasmine made changes">
+      <created>1651101806420</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1651101806420</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
